@@ -16,5 +16,16 @@
     </sys:String>
     <sys:String x:Key="Text4">Attending singing festivals was considered to be an important social event, and involved the Liedertafel travelling to Germany.
     </sys:String>
+    <sys:String x:Key="Text5">The repertoire of the State Theater of Linz particularly included Italian operas and singspiels, although from 1859 onwards, operettas were increasingly performed.</sys:String>
+    <sys:String x:Key="Text6">Since 1806, the theater had its own orchestra, and the group of soloists increasingly included guest singers from the Vienna Court Opera.</sys:String>
+    <sys:String x:Key="Text7">A major theatrical event in 1863 was the inauguration of Richard Wagner’s opera Tannhäuser. Among the attendees was Bruckner, who was greatly impressed by the opera.</sys:String>
+    <sys:String x:Key="Text8">The direction of the theater’s orchestra was in the hands of the Kapellmeister Otto Kitzler (1834-1915), an excellent cellist who was also a composer.</sys:String>
+    <sys:String x:Key="Text9">Bruckner was provided with a service apartment on the second floor of the sacristan’s house on Pfarrplatz. His income was low, and he had to supplement it by giving piano lessons, a situation that prevented him from composing.</sys:String>
+    <sys:String x:Key="Text10">In search of new opportunities, in September 1861, he unsuccessfully applied for the position of director at the Dommusikverein und Mozarteum (Cathedral and Mozarteum Music Association) in Salzburg. During this period, he composed, among other works, the Ave Maria in F major (WAB 6) and the Festive Cantata (WAB 16), a commissioned work for the laying of the foundation stone of the new cathedral.</sys:String>
+    <sys:String x:Key="Text11">In March 1861, Bruckner completed his classes with Simon Sechter and continued his studies with the Kapellmeister Otto Kitzler in Linz. The main areas of focus were musical form, instrumentation, and composition.</sys:String>
+    <sys:String x:Key="Text12">At this time, Bruckner composed his first major symphonic works: in January 1863, the overture in G minor (WAB 98) and, by May of the following year, the symphony in F minor (WAB 99), known as the "study symphony."</sys:String>
+    <sys:String x:Key="Text13">In the summer of 1864, Bruckner's work Germanenzug (WAB 70) was published in print for the first time. The composition was published by Josef Kränzl in Ried im Innkreis.</sys:String>
+    <sys:String x:Key="Text14">In May 1865, the composer met Richard Wagner (1813-1883) in Munich.</sys:String>
+
 
 </ResourceDictionary>

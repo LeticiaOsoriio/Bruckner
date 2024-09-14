@@ -14,5 +14,40 @@
     <sys:String x:Key="Text3">la Sociedad de Amigos de la Música (Gesellschaft der Musikfreunde), fundada en 1812; la Filarmónica de Viena (establecida como Philharmonische Konzertunternehmung), creada en 1842; la Asociación de cantantes masculinos de Viena (Wiener Männergesangverein), fundada en 1843; la Asociación de cantantes de la Sociedad de Amigos de la Música (Sängervereinigung der Gesellschaft der Musikfreunde), creada en 1858; la Academia de canto (Singakademie), instituida en 1858; la Asociación académica de canto (Akademischer Gesangverein), formada en 1858; y la Unión de Schubert (Schubertbund), fundada en 1863.
    
     </sys:String>
-   
+
+    <sys:String x:Key="Text4">Aparte de los conciertos, óperas y música eclesiástica, la Unterhaltungsmusik, asociada con el nombre Strauß, estaba viviendo un momento álgido extraordinario con los valses, polcas y operetas, así como la Wienerlied, la música militar y las marchas.
+    </sys:String>
+    <sys:String x:Key="Text5">Bajo el punto de vista político, la ciudad imperial atravesó grandes turbulencias a mediados de siglo. En 1848 la revolución hizo tambalear los cimientos del imperio y, en 1867, el antiguo imperio austriaco se declaró doble monarquía austrohúngara.
+    </sys:String>
+    <sys:String x:Key="Text6">Los acontecimientos políticos afectaron profundamente a las estructuras sociales del imperio, algo que se notó rápidamente en el aspecto de la capital.
+    </sys:String>
+    <sys:String x:Key="Text7">La Ringstraße se rediseñó y, con sus ostentosos edificios, simbolizaba el potencial de la creciente alta burguesía.
+    </sys:String>
+    <sys:String x:Key="Text8">En 1869 se inauguró la nueva Ópera de la Corte y en 1870 se construyó el edificio de la Wiener Musikverein, con sus salas de conciertos únicas.
+    </sys:String>
+    <sys:String x:Key="Text9">La relación de Bruckner con Viena estuvo dividida durante toda su vida. En el aspecto musical y social, la ciudad le ofrecía sus objetivos soñados. Cosechaba éxitos extraordinarios y se movía por los más altos círculos de la sociedad. Su obra fue premiada en 1886 con la entrega de la cruz de la Orden de Franz Joseph y en 1891 obtuvo el doctorado honoris causa de la Universidad de Viena. Bruckner se había esforzado para conseguir este último homenaje, que consideraba como «mayor triunfo de su peregrinación por la vida». En Viena disponía por primera vez de suficientes recursos como para poder permitirse una vida con todas las comodidades. Se alojaba en zonas residenciales con hermosas vistas, por último en el ala del custodio del palacio Belvedere.
+    </sys:String>
+    <sys:String x:Key="Text10">Pero en su interior, Bruckner nunca pudo acostumbrarse del todo a la vida en la gran ciudad. En su habla, su conducta y sus ademanes siempre fue un hombre con carácter rural y rústico. En ocasiones, incluso, se lo caracterizaba como «palurdo» y, en los círculos de la sociedad vienesa, se lo veía como bicho raro y esperpento artístico. Por lo demás, tampoco tenía habilidad con las mujeres. Las adoraba, pero nunca pudo conseguir el amor de ninguna.
+    </sys:String>
+    <sys:String x:Key="Text11">„Esto fue siempre un enigma sin resolver del carácter de Bruckner: su profunda 'desvalentía' (he elegido esta palabra a propósito) junto a su orgulloso amor propio. Estas dos caras de su carácter aparecían juntas a veces tan de repente y con tanta intensidad, que justamente por eso aparecían de forma muy llamativa, por lo que algunos se volvían locos con Bruckner y tendían a tomar una por ingenuidad y la otra por vanidad.“
+[Josef Kluger, posterior abad de Klosterneuburg, acerca de la personalidad de Anton Bruckner.]
+    </sys:String>
+    <sys:String x:Key="Text12">No se entendía con la etiqueta social y las intrigas y maquinaciones del panorama cultural de la metrópoli lo hacían dudar de sí mismo y lo amedrentaban.
+    </sys:String>
+    <sys:String x:Key="Text13">El influyente crítico musical Eduard Hanslick (1825-1904) lo preocupaba especialmente, ya que siempre se pronunciaba en sus artículos de prensa contra las composiciones de Bruckner y a favor de los seguidores de Johannes Brahms (1833-1897).
+    </sys:String>
+    <sys:String x:Key="Text14">Según se cuenta, Bruckner se habría dirigido incluso al emperador y le habría rogado:
+    </sys:String>
+    <sys:String x:Key="Text15">„Majestad misericordiosa, prohibid a Hanslick que escriba cosas malas sobre mí.“
+[August Göllerich/Max Auer, Anton Bruckner. Ein Lebens- und Schaffensbild.]
+    </sys:String>
+    <sys:String x:Key="Text16">„Siempre me ha resultado muy difícil conseguir una buena relación con estas extrañas composiciones en las que elementos ingeniosos, originales e incluso geniales se mezclan con pasajes incomprensibles, vacíos y secos, a menudo sin una conexión aparente, sin olvidar la longitud intolerable que amenaza con acabar con el aliento de músicos y oyentes.“
+[Eduard Hanslick acerca de la representación de la sinfonía n.º 6. En: Neue Freie Presse, periódico matutino. N.º 6632 (13.2.1883)]
+    </sys:String>
+    <sys:String x:Key="Text17">Cuando las circunstancias se lo permitían, Bruckner daba la espalda a Viena y se marchaba a su hogar en Alta Austria.
+    </sys:String>
+    <sys:String x:Key="Text18">Cabe mencionar también el hecho de que quisiera que su último lugar de reposo no estuviera en Viena, sino en St. Florian.
+    </sys:String>
+    <sys:String x:Key="Text19">Después de su empleo en el conservatorio, Bruckner se esforzó por conseguir un puesto en la Universidad de Viena y el 18 de noviembre de 1875 obtuvo una plaza, al principio no retribuida, como profesor de armonía y contrapunto. El 24 de abril de 1876 tuvo lugar su discurso inaugural.
+    </sys:String>
 </ResourceDictionary>

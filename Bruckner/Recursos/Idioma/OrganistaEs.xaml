@@ -18,4 +18,27 @@
    
     </sys:String>
 
+    <sys:String x:Key="Text5">El repertorio del teatro estatal de Linz incluía especialmente óperas italianas y singspiele, aunque a partir de 1859 cada vez se representaban más operetas.
+    </sys:String>
+    <sys:String x:Key="Text6">Desde 1806, el teatro disponía de una orquesta propia y el conjunto de solistas cada vez se enriquecía más con cantantes invitados de la Ópera de la Corte de Viena.
+    </sys:String>
+    <sys:String x:Key="Text7">Un acontecimiento teatral importante del año 1863 fue la inauguración de la ópera Tannhäuser, de Richard Wagner. Entre los asistentes se encontraba Bruckner, que quedó sumamente impresionado con la ópera.
+    </sys:String>
+    <sys:String x:Key="Text8">La dirección de la orquestra del teatro estaba en manos del maestro de capilla Otto Kitzler (1834-1915), un violonchelista excelente que también era compositor.
+    </sys:String>
+    <sys:String x:Key="Text9">Bruckner recibió una vivienda de servicio en el segundo piso de la casa del sacristán, en la Pfarrplatz.
+    Sus ingresos eran bajos y tenía que aumentarlos dando clases de piano, una circunstancia que impedía que pudiera componer.
+    </sys:String>
+    <sys:String x:Key="Text10">En busca de nuevas oportunidades, en septiembre de 1861 solicitó, sin éxito, el puesto de director en el Dommusikverein und Mozarteum (Asociación Musical de la Catedral y Mozarteum), en Salzburgo. En esta época compuso, entre otros, el Ave María en fa mayor (WAB 6) y la Cantata festiva (WAB 16), un trabajo por encargo con motivo de la colocación de la primera piedra de la nueva catedral.
+    </sys:String>
+    <sys:String x:Key="Text11">En marzo de 1861, Bruckner terminó sus clases con Simon Sechter y continuó sus estudios con el maestro de capilla Otto Kitzler, en Linz.
+   Los puntos principales eran la forma musical, la instrumentación y la composición.
+    </sys:String>
+    <sys:String x:Key="Text12">En este momento, Bruckner escribió sus primeros grandes trabajos sinfónicos: en enero de 1863 la obertura en sol menor (WAB 98) y, al mayo siguiente, la sinfonía en fa menor (WAB 99), la llamada «sinfonía de estudio».
+    </sys:String>
+    <sys:String x:Key="Text13">En verano de 1864 se publicó por primera vez una obra de Bruckner en papel, el Germanenzug (WAB 70).
+  La composición la publicó Josef Kränzl, en Ried im Innkreis.
+    </sys:String>
+    <sys:String x:Key="Text14">En mayo de 1865, el compositor coincidió con Richard Wagner (1813-1883) en Múnich.
+    </sys:String>
 </ResourceDictionary>

@@ -19,5 +19,35 @@
     <sys:String x:Key="Text5">Bruckner dedicó un tiempo de su vida al destino de Maximiliano, quien fue ejecutado en 1867 en México tras una desdichada regencia, y leyó todos los informes que tuvieran que ver con el emperador y México.
     
     </sys:String>
+
+
+    <sys:String x:Key="Text6">A diferencia de, por ejemplo, Haydn, Mozart o Schubert, de los que, en cierto modo, brotaban ideas musicales, componer significaba para él un trabajo mental agotador.
+    </sys:String>
+
+        <sys:String x:Key="Text7">A pesar de sus éxitos –su misa en re menor se tocó el 10 de febrero de 1867 bajo la dirección del maestro de capilla de la Corte Johann Ritter von Herbeck (1831-1877) en la capilla de la Corte de Viena–, su consagración musical le parecía inalcanzable.
+
+    </sys:String>
+            <sys:String x:Key="Text8">Este fue un motivo por el que, en 1867, lo asaltó una grave enfermedad nerviosa y tuvo que ser trasladado del 8 de mayo al 8 de agosto a Bad Kreuzen, en Mühlviertel, para recibir tratamiento. Los síntomas se manifestaron en una fuerte irritabilidad, sensibilidad al ruido y un trastorno obsesivo-compulsivo.
+    </sys:String>
+
+                <sys:String x:Key="Text9">„Desde el 8 de mayo estoy en Bad Kreuzen, junto a Grein. Desde hace una semana me encuentro algo mejor, pero no puedo tocar, estudiar ni trabajar. ¡Figúrate qué destino! ¡Soy un pobre desgraciado! Herbeck me envió las partituras de mi misa coral [misa en mi menor] y la sinfonía [sinfonía n.º 1 en do menor] sin escribir ni una palabra.
+Está todo tan mal. Pregunta otra vez. Queridísimo amigo, escríbeme de nuevo a mi exilio de los pobres y abandonados. Si hubieras venido en Pascua a Linz, te habrías asombrado de mi estado“
+[Bruckner a Rudolf Weinwurm, el 19 de junio de 1867.]
+    </sys:String>
+                    <sys:String x:Key="Text10">En 1868 la situación empezó a cambiar.
+    </sys:String>
+
+                        <sys:String x:Key="Text11">Bruckner solicitó el puesto de organista en la capilla de la Corte de Viena y, el 4 de septiembre de ese año, fue nombrado organista de la Corte real imperial.
+    </sys:String>
+
+                            <sys:String x:Key="Text12">Casi al mismo tiempo se le concedió la cátedra de armonía, contrapunto y órgano, vacante debido a la muerte de Simon Sechter, en el conservatorio de la Sociedad de Amigos de la Música (Gesellschaft der Musikfreunde).
+
+    </sys:String>
+                                <sys:String x:Key="Text13">Bruckner dejó Linz para desplegar su talento artístico completamente en la capital del imperio, Viena.
+    </sys:String>
+
+                                    <sys:String x:Key="Text14">Volvía regularmente a Linz, por ejemplo con motivo de la consagración de la capilla votiva de la nueva catedral en otoño de 1869, en la que se estrenó su misa en mi menor (WAB 27), dedicada al obispo Rudigier (1811-1884).
+
+    </sys:String>
 </ResourceDictionary>
     

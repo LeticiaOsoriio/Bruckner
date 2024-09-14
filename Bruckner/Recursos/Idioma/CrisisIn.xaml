@@ -2,20 +2,20 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                      xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Title">crisis years</sys:String>
-    <sys:String x:Key="Text1">„Let us go to Russia or somewhere, if no-one in the Fatherland wants to recognise us. You will see how satisfied I am and how I will love the people of Linz as a result of such recognition."“
+    <sys:String x:Key="Title">Years of Crisis</sys:String>
+    <sys:String x:Key="Text1">“Let’s go to Russia and wherever else, if they do not want to know us in our homeland. You see the point of satisfaction I am at and how I love the people of Linz for such recognition.”</sys:String>
+    <sys:String x:Key="Text2">[Bruckner to his friend Rudolf Weinwurm, October 18, 1864.]</sys:String>
+    <sys:String x:Key="Text3">Bruckner increasingly realized that Linz also did not offer him artistic prospects.</sys:String>
+    <sys:String x:Key="Text4">Desperate, he sought other opportunities for development and became interested, among other things, in a position as a musician at the court of Emperor Maximilian I in Mexico.</sys:String>
+    <sys:String x:Key="Text5">Bruckner dedicated a period of his life to the fate of Maximilian, who was executed in Mexico in 1867 after an unfortunate reign, and read all the reports related to the emperor and Mexico.</sys:String>
+    <sys:String x:Key="Text6">Unlike, for example, Haydn, Mozart, or Schubert, from whom musical ideas seemed to flow naturally, composing was an exhausting mental task for him.</sys:String>
+    <sys:String x:Key="Text7">Despite his successes—his mass in D minor was performed on February 10, 1867, under the direction of the Court Kapellmeister Johann Ritter von Herbeck (1831-1877) at the Court Chapel in Vienna—musical recognition seemed unattainable to him.</sys:String>
+    <sys:String x:Key="Text8">This was one reason why, in 1867, he was struck by a severe nervous illness and had to be transferred from May 8 to August 8 to Bad Kreuzen, in Mühlviertel, for treatment. The symptoms manifested as severe irritability, sensitivity to noise, and obsessive-compulsive disorder.</sys:String>
+    <sys:String x:Key="Text9">“Since May 8 I have been in Bad Kreuzen, near Grein. I have been feeling somewhat better for a week, but I am unable to play, study, or work. Imagine my fate! I am a poor wretch! Herbeck sent me the scores of my choral mass [Mass in E minor] and the symphony [Symphony No. 1 in C minor] without writing a word. Everything is so bad. Ask again. Dearest friend, write to me again in my exile of the poor and abandoned. If you had come to Linz at Easter, you would have been astonished at my condition.” [Bruckner to Rudolf Weinwurm, June 19, 1867.]</sys:String>
+    <sys:String x:Key="Text10">In 1868, the situation began to change.</sys:String>
+    <sys:String x:Key="Text11">Bruckner applied for the position of organist at the Court Chapel in Vienna and, on September 4 of that year, was appointed Court organist.</sys:String>
+    <sys:String x:Key="Text12">Almost simultaneously, he was awarded the chair of harmony, counterpoint, and organ, a position vacant due to the death of Simon Sechter, at the Conservatory of the Society of Friends of Music (Gesellschaft der Musikfreunde).</sys:String>
+    <sys:String x:Key="Text13">Bruckner left Linz to fully develop his artistic talent in the imperial capital, Vienna.</sys:String>
+    <sys:String x:Key="Text14">He regularly returned to Linz, for example, for the consecration of the votive chapel of the new cathedral in the fall of 1869, where his Mass in E minor (WAB 27), dedicated to Bishop Rudigier (1811-1884), was premiered.</sys:String>
 
-    </sys:String>
-    <sys:String x:Key="Text2">[Bruckner to his friend, Rudolf Weinwurm, 18 October 1864.]
-    </sys:String>
-
-    <sys:String x:Key="Text3">Bruckner increasingly recognised that Linz offered him no musical prospects.
-
-    </sys:String>
-    <sys:String x:Key="Text4">He desperately sought development opportunities and applied for positions such as that of musician in the Court Orchestra of Emperor Maximilian I in Mexico.
-
-    </sys:String>
-    <sys:String x:Key="Text5">Bruckner dedicó un tiempo de su vida al destino de Maximiliano, quien fue ejecutado en 1867 en México tras una desdichada regencia, y leyó todos los informes que tuvieran que ver con el emperador y México.
-The fate of Maximilian, who was executed in Mexico in 1867 following an unhappy reign, fascinated Bruckner throughout his life and he read any reports concerning Maximilian and Mexico.
-    </sys:String>
 </ResourceDictionary>

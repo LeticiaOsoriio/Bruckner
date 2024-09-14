@@ -23,4 +23,38 @@
     <sys:String x:Key="Text6">Las invitaciones lo llevaron hasta Praga, entre otros.
         
     </sys:String>
+
+    <sys:String x:Key="Text7">„Totalmente agotado. Diez conciertos, seis veces en el Albert Hall, cuatro en el Crystal Palace. Grandes aplausos sin fin. Se pidieron bises. De hecho, a menudo tuve que tocar dos improvisaciones después.“
+ </sys:String>
+
+    <sys:String x:Key="Text8" >[Bruckner a Moritz von Mayfeld, el 23 de agosto de 1871.]
+     </sys:String>
+
+    <sys:String x:Key="Text9" >Bruckner había granjeado una gran reputación como organista y era famoso, sobre todo, por su arte de improvisación.
+Orgulloso, el 20 de junio de 1868 escribió a Hans von Bülow (1830-1894) para decirle que en Viena lo trataban como al «mejor organista de Austria».
+ </sys:String>
+
+    <sys:String x:Key="Text10"  >Como gran conocedor del instrumento, con frecuencia le llegaban solicitudes de inspección de órganos, es decir, la comprobación exhaustiva y la aprobación de instrumentos nuevos.
+Las invitaciones lo llevaron hasta Praga, entre otros.
+ </sys:String>
+
+    <sys:String x:Key="Text11" >En primavera de 1869 emprendió una gira de conciertos extremadamente exitosa por Nancy y París y en verano de 1871 dio conciertos de órgano en el Royal Albert Hall y en el Crystal Palace de Londres, que causaron un frenético entusiasmo.
+ </sys:String>
+
+    <sys:String x:Key="Text12"  >„[…] y cuando Bruckner, embriagado por su propio entusiasmo, tocó un tema que le había dado uno de los mejores organistas de París durante media hora […] con un virtuosismo cautivador, el reconocimiento de sus oyentes creció hasta convertirse en ovaciones entusiastas. La prensa informó al día siguiente sobre los extraordinarios éxitos de un organista alemán en la capital francesa y dijo en uno de estos informes, entre otras cosas: 'El órgano de la iglesia de Notre Dame resplandecía como nunca y celebró su día triunfal bajo las manos del artista alemán Bruckner'"
+[Noticia sobre los éxitos de Bruckner en Nancy y París, de: Neues Fremdenblatt, el 29 de mayo de 1869.]
+</sys:String>
+
+    <sys:String x:Key="Text13" >Además de su actividad como solista, Bruckner viajó también para representar sus obras a Berlín, Leipzig, Bratislava y Múnich. Bayreuth fue uno de los lugares que más visitó debido al festival de Wagner que se celebra allí desde 1876.
+</sys:String>
+    <sys:String x:Key="Text14">El primer viaje al extranjero de Bruckner lo llevó como maestro del coro de la sociedad de canto de Linz a Núremberg y su último viaje fue en enero de 1894 a Berlín, donde se interpretaron en su presencia la sinfonía n.º 7 (WAB 107), el Te Deum (WAB 45) y el cuarteto de cuerda (WAB 112).
+</sys:String>
+    <sys:String x:Key="Text15">El compositor viajaba principalmente al servicio de la música, pero por lo demás –con la excepción de las visitas frecuentes a su hogar en Alta Austria–, apenas lo hacía.
+</sys:String>
+    <sys:String x:Key="Text16">Excepciones de esto fueron unas vacaciones de descanso en Suiza en 1880 y las estancias curativas en Bad Kreuzen, así como una estancia de reposo en verano de 1873 en Marienbad, en Bohemia.
+</sys:String>
+    <sys:String x:Key="Text17">Los viajes habían ganado mucho en comodidad en el transcurso del siglo XIX. Gracias al ferrocarril y a la ampliación de las vías de comunicación, el transporte en Europa estaba viviendo una revolución. Los medios de transporte eran más confortables y rápidos y los costes de los viajes cada vez eran más bajos
+</sys:String>
+    <sys:String x:Key="Text18">Mientras que antes viajar de forma confortable era un privilegio de la nobleza y la alta burguesía, en la segunda mitad del siglo XIX ya era asequible para otras capas sociales. Las vacaciones de ocio y reposo se convirtieron en una forma establecida de pasar el tiempo libre entre la sociedad
+</sys:String>
 </ResourceDictionary>
