@@ -9,6 +9,8 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Threading;
+using System.Diagnostics;
+using Bruckner.Beethoven;
 
 
 namespace Bruckner
@@ -18,6 +20,27 @@ namespace Bruckner
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<string> tagsList = new List<string>
+            {
+                "Alumno",
+                "Biografia1",
+                "Compositor",
+                "Coro",
+                "Crisis",
+                "Familia",
+                "forschung",
+                "Galeria",
+                "Imagen",
+                "Literatura",
+                "Muerte",
+                "Obras",
+                "Organista",
+                "Profesor",
+                "Trabajo",
+                "Viajes",
+                "Viena"
+            };
+        public Musica GetMusica;
         private MediaPlayer mediaPlayer;
         private string[] audioFiles;
         private int currentFileIndex = 0;
@@ -32,31 +55,13 @@ namespace Bruckner
             // this.Topmost = true;
 
             mediaPlayer = new MediaPlayer();
-
+            GetMusica = new Musica();
             // Reproducir el archivo menu.mp3 al iniciar la aplicación
-            
+
 
             SessionManager.CurrentLanguage = "es-ES";
             LoadLanguage(SessionManager.CurrentLanguage);
             PlayMenuAudio();
-            Tit2.Selected += TreeViewItem_Selected;
-            Tit3.Selected += TreeViewItem_Selected;
-            Tit4.Selected += TreeViewItem_Selected;
-            Tit5.Selected += TreeViewItem_Selected;
-            Tit7.Selected += TreeViewItem_Selected;
-            Tit8.Selected += TreeViewItem_Selected;
-            Tit9.Selected += TreeViewItem_Selected;
-            Tit10.Selected += TreeViewItem_Selected;
-            Tit11.Selected += TreeViewItem_Selected;
-            Tit12.Selected += TreeViewItem_Selected;
-           
-            Tit14.Selected += TreeViewItem_Selected;
-            Tit15.Selected += TreeViewItem_Selected;
-            Tit16.Selected += TreeViewItem_Selected;
-            Tit17.Selected += TreeViewItem_Selected;
-            //Tit18.Selected += TreeViewItem_Selected;
-            //Tit19.Selected += TreeViewItem_Selected;
-            //Tit20.Selected += TreeViewItem_Selected;
             _inactivityTimer = new DispatcherTimer();
             _inactivityTimer.Interval = TimeSpan.FromMinutes(5); // 5 minutos de inactividad
             _inactivityTimer.Tick += InactivityTimer_Tick;
@@ -68,7 +73,6 @@ namespace Bruckner
             // Iniciar el temporizador
             _inactivityTimer.Start();
         }
-
         // Método que se ejecuta cuando el temporizador alcanza los 5 minutos de inactividad
         private void InactivityTimer_Tick(object sender, EventArgs e)
         {
@@ -94,6 +98,82 @@ namespace Bruckner
             this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/Img/saver.jpg")));
             // Aquí puedes colocar el código que deseas ejecutar
         }
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Si es posible retroceder, ejecuta el comando de navegación hacia atrás
+            if (ContentFrame.CanGoBack)
+            {
+                ContentFrame.GoBack();
+            }
+        }
+
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+            var currentPage = ContentFrame.Content as Page;
+
+            // Si es posible avanzar, ejecuta el comando de navegación hacia adelante
+            if (ContentFrame.CanGoForward)
+            {
+                ContentFrame.GoForward();
+            }
+            else
+            {
+                if (currentPage == null)
+                {
+                    goNavi("BonnPage");
+                }
+                else
+                {
+                    string currentTag = GetCurrentPageTag(currentPage);
+
+                    // Encontrar el índice del tag actual en la lista
+                    int currentIndex = tagsList.IndexOf(currentTag);
+
+                    // Si se encontró el tag actual en la lista y no es el último, navegar al siguiente
+                    if (currentIndex >= 0 && currentIndex < tagsList.Count - 1)
+                    {
+                        string nextTag = tagsList[currentIndex + 1];
+                        goNavi(nextTag);  // Navega a la siguiente página usando su tag
+                    }
+                    else
+                    {
+
+                        ContentFrame.Content = null;
+                        this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/saver.jpg")));
+                        CloseAllExpanders();
+                        PlayMenuAudio();
+                    }
+                }
+            }
+
+        }
+        private string GetCurrentPageTag(Page currentPage)
+        {
+            // Obtener el nombre del tipo de la página actual, por ejemplo, "BonnPage"
+            return currentPage.GetType().Name;
+        }
+        private void FakeClick(object sender, MouseButtonEventArgs e)
+        {
+            // Verifica si el clic fue en un TreeViewItem
+            var clickedElement = e.OriginalSource as DependencyObject;
+            while (clickedElement != null && !(clickedElement is TreeViewItem))
+            {
+                clickedElement = VisualTreeHelper.GetParent(clickedElement);
+            }
+
+            if (clickedElement != null)
+            {
+                var item = (TreeViewItem)clickedElement;
+
+                // Si el item no está seleccionado, selecciónalo
+                if (!item.IsSelected)
+                {
+                    item.IsSelected = true;
+                }
+            }
+        }
+
+
         private void LoadLanguage(string cultureCode)
         {
             var cultureInfo = new CultureInfo(cultureCode);
@@ -118,13 +198,25 @@ namespace Bruckner
             Resources.MergedDictionaries.Clear();
             Resources.MergedDictionaries.Add(dict);
         }
-        private void MenuListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+
+        private void TreeViewItem_Selected(object sender, RoutedEventArgs e)
         {
-            
-                    if (MenuListBox.SelectedItem is ListBoxItem selectedItem)
+            TreeViewItem selectedItem = e.OriginalSource as TreeViewItem;
+
+            if (selectedItem != null)
             {
-                string pageName = selectedItem.Tag.ToString();
-                ContentFrame.Navigate(new Uri($"Vistas/{pageName}.xaml", UriKind.Relative));
+                // Obtener el valor del Tag
+                string tagValue = selectedItem.Tag as string;
+
+                if (!string.IsNullOrEmpty(tagValue))
+                {
+                    // Llamar al método de manejo de selección
+                    goNavi(tagValue);
+                }
+                selectedItem.IsSelected = false;
+
+                // Evitar que el evento se propague a otros elementos
+                e.Handled = true;
             }
         }
 
@@ -146,32 +238,57 @@ namespace Bruckner
             mediaPlayer.Open(new Uri(audioFilePath, UriKind.Absolute));
             mediaPlayer.Play();
         }
-        private void TreeViewItem_Selected(object sender, RoutedEventArgs e)
-        {
-            TreeViewItem selectedItem = e.OriginalSource as TreeViewItem;
 
-            if (selectedItem != null)
-            {
-                // Obtener el valor del Tag
-                string tagValue = selectedItem.Tag as string;
-
-                if (!string.IsNullOrEmpty(tagValue))
-                {
-                    // Llamar al método de manejo de selección
-                    goNavi(tagValue);
-                }
-
-                // Evitar que el evento se propague a otros elementos
-                e.Handled = true;
-            }
-        }
         public void goNavi(string tag)
         {
-            mediaPlayer.Stop();
 
-            this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/Img/Hintergrund.jpg")));
+            // Verificar si mediaPlayer está en reproducción de manera segura
+            if (mediaPlayer.Position != TimeSpan.Zero &&
+                mediaPlayer.NaturalDuration.HasTimeSpan && // Verificar si la duración es válida
+                mediaPlayer.Position < mediaPlayer.NaturalDuration.TimeSpan)
+            {
+                mediaPlayer.Stop();
+            }
+            GetMusica.Pagina(tag);
+            // Crear la nueva imagen de fondo
+            var newBackground = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/Img/Hintergrund.jpg")));
+
+            // Comprobar si la imagen de fondo actual es diferente antes de cambiarla
+            if (!(this.Background is ImageBrush currentBackground) || currentBackground.ImageSource.ToString() != newBackground.ImageSource.ToString())
+            {
+                this.Background = newBackground;
+            }
+
+            // Navegar a la nueva página
             string pageName = tag;
             ContentFrame.Navigate(new Uri($"Vistas/{pageName}.xaml", UriKind.Relative));
+        }
+        private void Navigate_Click(object sender, RoutedEventArgs e)
+        {
+            // Asegurarse de que el sender es un Button
+            if (sender is Button clickedButton)
+            {
+                // Obtener el Tag del botón
+                string pageTag = clickedButton.Tag as string;
+
+                if (!string.IsNullOrEmpty(pageTag))
+                {
+                    // Llamar a la función GoNavi para navegar a la página correspondiente
+                    goNavi(pageTag);
+                }
+            }
+        }
+        private void MenuListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (MenuListBox.SelectedItem is ListBoxItem selectedItem)
+            {
+                // Obtén el Tag del elemento seleccionado
+                var tag = selectedItem.Tag;
+
+                // Llama al método goNavi pasándole el tag
+                goNavi(tag.ToString());
+                MenuListBox.SelectedItem = null;
+            }
         }
         protected override void OnKeyDown(KeyEventArgs e)
         {
@@ -196,6 +313,7 @@ namespace Bruckner
 
         private void ChangeLanguage_Click(object sender, RoutedEventArgs e)
         {
+
             if (SessionManager.CurrentLanguage == "es-ES")
             {
                 SessionManager.CurrentLanguage = "en-US";
@@ -205,10 +323,51 @@ namespace Bruckner
                 SessionManager.ChangeLanguage("es-ES");
             }
             LoadLanguage(SessionManager.CurrentLanguage);
-            PlayMenuAudio();
             ContentFrame.Content = null;
             this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/Img/saver.jpg")));
+            PlayMenuAudio();
+            CloseAllExpanders();
         }
+
+        private void Expander_Expanded1(object sender, RoutedEventArgs e)
+        {
+            if (Expander1.IsExpanded)
+            {
+                goNavi("BonnPage");
+            }
+        }
+        private void Expander_Expanded2(object sender, RoutedEventArgs e)
+        {
+            if (Expander2.IsExpanded)
+            {
+                goNavi("Independiente");
+            }
+        }
+        private void Expander_Expanded3(object sender, RoutedEventArgs e)
+        {
+            if (Expander3.IsExpanded)
+            {
+                goNavi("Sobrino");
+            }
+        }
+        private void Expander_Expanded4(object sender, RoutedEventArgs e)
+        {
+            if (Expander4.IsExpanded)
+            {
+                goNavi("Cuaderno");
+            }
+        }
+        private void CloseAllExpanders()
+        {
+            // Cerrar cada Expander estableciendo IsExpanded en false
+            Expander1.IsExpanded = false;
+            Expander2.IsExpanded = false;
+            Expander3.IsExpanded = false;
+            Expander4.IsExpanded = false;
+        }
+
+        // Método que se ejecuta cuando el temporizador alcanza los 5 minutos de inactividad
+
     }
 
 }

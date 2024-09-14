@@ -5,59 +5,88 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bruckner"
         mc:Ignorable="d"
-        Title="MainWindow" >
+              Title="MainWindow" Height="720" Width="1280">
     <Window.Background>
-        <ImageBrush ImageSource="Recursos/Img/saver.jpg" ></ImageBrush>
+        <ImageBrush ImageSource="Recursos/Img/saver.jpg"/>
     </Window.Background>
-    <Grid>
-
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+    </Window.Resources>
+    <Grid Margin="10,0,0,0">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="399" />
+            <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="1">
-            <Button Margin="0,30,0,0" Height="80" Width="80" Click="ChangeLanguage_Click">
-                <Button.Background>
-                    <ImageBrush ImageSource="Recursos/Img/idioma.png" />
-                </Button.Background>
-            </Button>
-            <TreeView Background="Transparent">
-                <TreeViewItem Header="{DynamicResource Tit1}">
-                    <TreeViewItem Header="{DynamicResource Tit2}" Tag="Biografia1" x:Name="Tit2"/>
-                    <TreeViewItem Header="{DynamicResource Tit3}" Tag="Familia" x:Name="Tit3"/>
-                    <TreeViewItem Header="{DynamicResource Tit4}" Tag="Coro" x:Name="Tit4"/>
-                    <TreeViewItem Header="{DynamicResource Tit5}" Tag="Alumno" x:Name="Tit5"/>
-                    <TreeViewItem Header="{DynamicResource Tit7}" Tag="Profesor" x:Name="Tit7"/>
-                    <TreeViewItem Header="{DynamicResource Tit8}"
-                                  Tag="Organista" x:Name="Tit8"/>
-                    <TreeViewItem Tag="Crisis" Header="{DynamicResource Tit9}" x:Name="Tit9"/>
-                    <TreeViewItem Tag="Viajes" Header="{DynamicResource Tit10}"  x:Name="Tit10"/>
-                    <TreeViewItem Tag="Viena"  Header="{DynamicResource Tit11}" x:Name="Tit11"/>
-                    <TreeViewItem Tag="Muerte" Header="{DynamicResource Tit12}" x:Name="Tit12"/>
-                </TreeViewItem>
-            </TreeView>
+        <StackPanel Grid.Column="1" >
+            <StackPanel HorizontalAlignment="Center" Margin="10"  Orientation="Horizontal">
+                <Button Content="Regresar"  FontSize="20"   Click="BackButton_Click" Margin="10" Background="Black"  />
 
-            <TreeView Background="Transparent">
-                <TreeViewItem Header="{DynamicResource Tit13}">
-                    <TreeViewItem Header="{DynamicResource Tit14}" Tag="Compositor"  x:Name="Tit14"/>
-                    <TreeViewItem Header="{DynamicResource Tit15}" Tag="Trabajo"  x:Name="Tit15"/>
-                    <TreeViewItem Header="{DynamicResource Tit16}" Tag="Imagen"  x:Name="Tit16"/>
-                    <TreeViewItem Header="{DynamicResource Tit17}" Tag="forschung" x:Name="Tit17"/>
-                </TreeViewItem>
-            </TreeView>
-            <!-- Menú lateral -->
-            <ListBox  x:Name="MenuListBox" Background="Transparent" SelectionChanged="MenuListBox_SelectionChanged" Margin="10">
+                <Button Margin="0,0,0,0" Height="80" Width="80" Click="ChangeLanguage_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Recursos/Img/idioma.png" />
+                    </Button.Background>
+                </Button>
+                <Button Content="Siguiente"  FontSize="20" Click="NextButton_Click" Margin="10" Background="Black" />
+            </StackPanel>
 
-                <ListBoxItem Content="{DynamicResource Tit18}" Tag="Obras"  />
+            <!-- Expander para la sección de Bonn -->
+            <Expander x:Name="Expander1" Header="{DynamicResource Tit1}" Background="Transparent" Expanded="Expander_Expanded1">
+                <StackPanel>
+                    <Button Content="{DynamicResource Tit2}" Tag="BonnPage" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit3}" Tag="Clases" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit4}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit5}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit6}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit7}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit8}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit9}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit10}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                </StackPanel>
+            </Expander>
+
+            <Expander x:Name="Expander2" Header="{DynamicResource Tit5}" Background="Transparent" Expanded="Expander_Expanded2">
+                <StackPanel>
+                    <Button Content="{DynamicResource Tit6}" Tag="Independiente" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit7}" Tag="Testamento" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit8}" Tag="Heroica" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit9}" Tag="Apogeo" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit10}" Tag="Ultimos" Click="Navigate_Click" Background="Transparent" />
+                </StackPanel>
+            </Expander>
+
+            <Expander x:Name="Expander3" Header="{DynamicResource Tit11}" Background="Transparent" Expanded="Expander_Expanded3">
+                <StackPanel>
+                    <Button Content="{DynamicResource Tit12}" Tag="Sobrino" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit13}" Tag="amigos" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit14}" Tag="BethoveenyGoet" Click="Navigate_Click" Background="Transparent" />
+                </StackPanel>
+            </Expander>
+
+            <Expander x:Name="Expander4" Header="{DynamicResource Tit15}" Background="Transparent" Expanded="Expander_Expanded4">
+                <StackPanel>
+                    <Button Content="{DynamicResource Tit16}" Tag="Cuaderno" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit17}" Tag="Casa" Click="Navigate_Click" Background="Transparent" />
+                </StackPanel>
+            </Expander>
+
+
+            <!-- ListBox para otras opciones del menú -->
+            <ListBox BorderBrush="Transparent" x:Name="MenuListBox" Background="Transparent"  SelectionChanged="MenuListBox_SelectionChanged" Margin="10">
+                <ListBoxItem Content="{DynamicResource Tit18}" Tag="Obras" />
                 <ListBoxItem Content="{DynamicResource Tit19}" Tag="Literatura" />
-                <ListBoxItem Content="{DynamicResource Tit20}" Tag="Galeria" />
-
+                <ListBoxItem Content="{DynamicResource Tit20}" Tag="FuenteImagenes" />
             </ListBox>
         </StackPanel>
-        
 
         <!-- Área de contenido -->
         <Frame x:Name="ContentFrame" Grid.Column="0" NavigationUIVisibility="Hidden" />
-
+        <StackPanel Grid.Column="1" VerticalAlignment="Bottom" Orientation="Horizontal">
+        </StackPanel>
     </Grid>
 </Window>

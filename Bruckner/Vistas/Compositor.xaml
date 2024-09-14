@@ -35,50 +35,50 @@
            <LineBreak/><LineBreak/>
            <LineBreak/><LineBreak/>
            <Run Text="{DynamicResource Text2}" Foreground="#FFCA00"  FontStyle="Italic"/>
-                      <LineBreak/><LineBreak/>
-                      <LineBreak/><LineBreak/>
+        <LineBreak/>
+        <LineBreak/>
                <Run Text="{DynamicResource Text3}"/>
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text4}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text5}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text6}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text7}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text8}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text9}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text10}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text11}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text12}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text13}" />
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text14}" />   
-               <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+ <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text15}" />
-                                   <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+                     <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text16}" />
-                                   <LineBreak/><LineBreak/>
-               <LineBreak/><LineBreak/>
+                     <LineBreak/>
+ <LineBreak/>
                <Run Text="{DynamicResource Text17}" />
                 </TextBlock>
             </ScrollViewer>
