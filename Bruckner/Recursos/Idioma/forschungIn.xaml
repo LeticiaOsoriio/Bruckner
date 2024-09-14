@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Title">Bruckner Research</sys:String>
+
+    <sys:String x:Key="Text1">With the establishment of the Anton Bruckner Institute in Linz (ABIL) (www.abil.at), the new Bruckner research received a central research institution in 1978.</sys:String>
+
+    <sys:String x:Key="Text2">Its main work is the reconstruction of the life and works of Anton Bruckner.</sys:String>
+
+    <sys:String x:Key="Text3">In addition to fundamental research, the institute is responsible for collecting and documenting sources, editing scholarly publications, and promoting and organizing conferences, symposia, and exhibitions.</sys:String>
+
+    <sys:String x:Key="Text4">The institute has a unique collection of data and documents, as well as an extensive library.</sys:String>
+
+    <sys:String x:Key="Text5">Bruckner research is also connected to the Institute for Historical Research on Art and Music at the Austrian Academy of Sciences in Vienna.</sys:String>
+
+</ResourceDictionary>

@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">la imagen de bruckner con el paso del tiempo
+    </sys:String>
+    <sys:String x:Key="Text1">„Las nuevas perspectivas dentro de la biografía, la creación y la recepción no nos pueden hacer olvidar que las imágenes de los artistas suelen cambiar con el tiempo y que están mucho más caracterizadas por la construcción subjetiva que por la reconstrucción histórica.“
+    </sys:String>
+
+    <sys:String x:Key="Text2">[Erich Wolfgang Partsch. Rezeption (Recepción). En: Anton Bruckner. Ein Handbuch (Anton Bruckner. Un manual).]La imagen del compositor Anton Bruckner experimentó fuertes cambios a lo largo del tiempo.
+    </sys:String>
+
+    <sys:String x:Key="Text3">Aunque antes se lo considerara como «genio subestimado» y figura artística «ingenua», hoy está visto como figura social ambiciosa que propulsó su carrera de manera consciente.
+    </sys:String>
+
+    <sys:String x:Key="Text4">La persona de Bruckner, favorecida por sus aspiraciones de reconocimiento y éxito y provista de una franqueza de principio frente a diferentes grupos ideológicos y políticos, se dejó acaparar por varias circunstancias y movimientos políticos.
+    </sys:String>
+
+    <sys:String x:Key="Text5">Especialmente su profunda fe católica y su innegable origen rural encajaban en los círculos católicos y nacionalistas alemanes.
+    </sys:String>
+
+    <sys:String x:Key="Text6">También la declaración de Bruckner en favor de Richard Wagner propició un acaparamiento nacionalista alemán desde la década de 1870, que no terminó con el año 1945.
+    </sys:String>
+
+    <sys:String x:Key="Text7">En la década de 1920 aumentaron los intentos de oponerse al arte contemporáneo con Bruckner como figura líder.
+    </sys:String>
+
+    <sys:String x:Key="Text8">Como «dios músico», se convirtió en ídolo del arte católico y el nacionalsocialismo lo elogiaba como «héroe alemán del sonido».
+    </sys:String>
+
+    <sys:String x:Key="Text9">Se lo glorificó como prototipo del «genio original», anclado en el Blut und Boden («sangre y suelo») alemán y, a petición de Adolf Hitler (1889-1945), se creó en St. Florian un «Bayreuth de Bruckner» propio, con la orquesta y coro de Bruckner del Reich.
+    </sys:String>
+
+    <sys:String x:Key="Text10">Hitler ordenó que se llorara su «muerte heroica», entre otros, con la retransmisión por radio del adagio de la sinfonía n.º 7.
+    </sys:String>
+
+</ResourceDictionary>

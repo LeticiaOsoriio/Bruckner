@@ -19,5 +19,26 @@
     <sys:String x:Key="Text5">Aquí nació la misa de Bruckner en do mayor para contralto, 2 trompas y órgano (WAB 25).
         
     </sys:String>
-
+    <sys:String x:Key="Text6">En 1843, Bruckner fue trasladado a la escuela de Kronstorf, situada cerca del monasterio de St. Florian y parroquia catastral del mismo, donde pronto se sentiría como «en el cielo». Aquí pudo, por primera vez, dedicarse de nuevo a la música de forma intensa. Tomó clases privadas con el director del coro de Enns, Leopold von Zenetti (1805-1892), las cuales durarían hasta 1855. En Kronstorf escribió varias composiciones, como la misa en re menor (WAB 146).
+    </sys:String>
+    <sys:String x:Key="Text7">Tras varios años como asistente, Bruckner fue ascendido a profesor en regla y en 1845 aceptó un puesto en la escuela de St. Florian. Además, en 1849 fue nombrado profesor de música de los niños cantores, a los que daba clases de canto y violín. Se dedicó de nuevo a la música monasterial con gran afán, especialmente al órgano, por lo que el 28 de febrero de 1850 el abad lo nombró organista provisional del monasterio.
+    </sys:String>
+    <sys:String x:Key="Text8">Además de a sus tareas profesionales, se dedicaba con ahínco a la composición. Así surgieron el réquiem en re menor (WAB 39), la Missa solemnis en si bemol menor (WAB 29), varias composiciones para piano, una cantata y diversas canciones.
+    </sys:String>
+    <sys:String x:Key="Text9">Aun así, Bruckner aún no tenía del todo clara su vida futura y vacilaba entre dedicarse a la música o ser funcionario del Estado. Era un excelente organista, pero no tenía un empleo fijo y apenas era conocido como compositor.
+            </sys:String>
+            <sys:String x:Key="Text10">El 30 de julio de 1852 escribió al maestro de capilla Ignaz Assmayr (1790-1862), a Viena:
+    </sys:String>
+    <sys:String x:Key="Text11">„Aquí no tengo a nadie a quien pueda abrir mi corazón y en algunos aspectos no se me aprecia, lo que a menudo me duele mucho en secreto“
+[Anton Bruckner, Briefe. (Sämtliche Werke 24/1) (Anton Bruckner, cartas. Obras completas 24/1)]
+    </sys:String>
+    <sys:String x:Key="Text12">En enero de 1852, fue a Viena para visitar a Assmayr y mostrarle su réquiem y, en octubre, realizó una prueba de órgano frente a Assmayr, Simon Sechter (1788-1867) y Gottfried Preyer (1807-1901). A pesar de sus ambiciones musicales, se preparó para el examen de profesor de enseñanza secundaria, que aprobó en enero de 1855 con gran éxito.
+    </sys:String>
+    <sys:String x:Key="Text13">En 1855 las cosas empezaron a encauzarse para Bruckner. Había dejado la docencia y en julio de ese año empezó un estudio teórico con Simon Sechter en Viena, que duraría varios años. Las clases se realizaban mayormente por carta y Bruckner visitaba a su profesor en Viena solo de vez en cuando.
+    </sys:String>
+    <sys:String x:Key="Text14">„¡Querido amigo Bruckner! He examinado sus 17 cuadernos con trabajos sobre el contrapunto doble y me han sorprendido su diligencia y los progresos que ha hecho en ellos. […] De todos modos, ya estoy convencido de su diligencia y empeño y no quisiera que su salud sufriera demasiado por culpa de un esfuerzo mental demasiado grande. No puedo más que decirle que no había tenido nunca un alumno tan aplicado como usted“
+[Simon Sechter a Bruckner, el 13 de enero de 1860]
+    </sys:String>
+    <sys:String x:Key="Text15">El 13 de noviembre de 1855, Bruckner ganó el puesto de organista de la catedral en Linz. Dejó su empleo en St. Florian y se trasladó a la capital del estado.
+    </sys:String>
 </ResourceDictionary>

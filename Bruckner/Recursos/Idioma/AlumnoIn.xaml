@@ -11,6 +11,13 @@
 
     <sys:String x:Key="Text3">Education was compulsory until the age of twelve, and the curriculum included reading, writing, arithmetic and religion. Its stated objective was the religious and moral education of pupils.
 .</sys:String>
+    <sys:String x:Key="Text4">The prerequisite for being admitted as a teacher was to attend a Lehrerbildungsanstalt (teacher training institution), known as Präparandie. Candidates had to be at least 16 years old and pass an entrance exam.</sys:String>
+
+    <sys:String x:Key="Text5">In Bruckner's time, training at the Präparandie lasted ten months and included spelling, reading, language, geography, religion, arithmetic, handwriting, and music. Attendance at daily Mass was mandatory, with festive days often accompanied by student music.</sys:String>
+
+    <sys:String x:Key="Text6">The music curriculum included harmony, figured bass, choral singing, and organ. Upon successful completion of the training, the student was appointed as a junior teacher, and after several years of experience, they could be promoted to a regular teacher.</sys:String>
+
+    <sys:String x:Key="Text7">The music teacher Johann August Dürrnberger (1800-1880) may have had a lasting impact on Bruckner. Dürrnberger was a central figure in the musical life of Linz; he was a composer and published a fundamental book on harmony and figured bass in 1841 (Elementar-Lehrbuch der Harmonie- und Generalbaßlehre).</sys:String>
 
 </ResourceDictionary> 
     

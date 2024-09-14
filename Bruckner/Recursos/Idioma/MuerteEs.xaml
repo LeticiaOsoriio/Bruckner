@@ -5,19 +5,38 @@
     <sys:String x:Key="Title">muerte y última voluntad</sys:String>
     <sys:String x:Key="Text1">„Me entienden, señores, aquí en St. Florian, donde desde mi juventud me siento tan a gusto, [...] allá, pónganme allá, bajo el gran órgano, el cual en mi vida tanto he tocado, que siempre me dio tanta alegría“
     </sys:String>
-
-    <sys:String x:Key="Text2">[[August Göllerich/Max Auer, Anton Bruckner.]</sys:String>
-
+    <sys:String x:Key="Text2">[August Göllerich/Max Auer, Anton Bruckner.]</sys:String>  
     <sys:String x:Key="Text3">Bruckner sufría de un problema de corazón y ya en 1892 lo aquejaban la hidropesía y la disnea. Este año acudió por última vez a las representaciones de Wagner en Bayreuth y el 28 de octubre de 1892 fue eximido de sus servicios en la capilla de la Corte a petición propia.
-
     </sys:String>
     <sys:String x:Key="Text4">Después de que su estado de salud empeorara crecientemente a lo largo de 1893, a finales de año mejoró de forma sorprendente. En diciembre de 1894 sufrió una enorme recaída y, cuando los médicos ya lo habían dado por perdido, su estado de salud volvió a mejorar.
-
     </sys:String>
     <sys:String x:Key="Text5">Siguió trabajando en su sinfonía n.º 9, que esperaba poder terminar.
     </sys:String>
     <sys:String x:Key="Text6">Este deseo no se cumplió, ya que Bruckner falleció el 11 de octubre de 1896 a las 15:30 en su domicilio del edificio anexo del custodio del palacio Belvedere.Siguió trabajando en su sinfonía n.º 9, que esperaba poder terminar.
-
+    </sys:String>
+    <sys:String x:Key="Text7">El cadáver permaneció en el domicilio durante tres días para que amigos y admiradores pudieran despedirse de él.
+    </sys:String>
+    <sys:String x:Key="Text8">Para decorar la habitación, el emperador Franz Joseph I envió un arreglo floral del jardín de la Corte.
+    </sys:String>
+    <sys:String x:Key="Text9">Aún en vida, Bruckner ya había pensado en su último lugar de reposo. Según sus deseos, su círculo de vida debía terminar donde había empezado el viaje de su desarrollo artístico y personal:
+en el monasterio de St. Florian, a ser posible bajo su amado órgano. Bruckner, que había expresado su última voluntad en un testamento, se había dirigido al abad de St. Florian en 1885 con respecto a este asunto y había vuelto a formular sus deseos en su última visita a St. Florian, en Pascua de 1894.
+    </sys:String>
+    <sys:String x:Key="Text10">Como alternativa, Bruckner consideró ser enterrado en el cementerio de la iglesia parroquial de Steyr. Solo habría aceptado que lo enterraran en Viena de mala gana:
+    </sys:String>
+    <sys:String x:Key="Text11">„Si los habitantes de Steyr no me aceptan, en nombre de Dios me tendrán los de Viena.“
+[August Göllerich/Max Auer, Anton Bruckner. Ein Lebens- und Schaffensbild.]
+    </sys:String>
+    <sys:String x:Key="Text12">El traslado de los restos mortales de Viena a St. Florian se realizó en ferrocarril.
+    </sys:String>
+    <sys:String x:Key="Text13">De acuerdo con las prescripciones higiénicas vigentes, el cuerpo tuvo que ser embalsamado para su transporte, un proceso para el que Bruckner ya se había asegurado en 1893 la garantía del médico Richard Paltauf (1858-1924).
+    </sys:String>
+    <sys:String x:Key="Text14">Dado que no se pidió la asignación de una tumba en el Cementerio Central de Viena, el consejo municipal de Viena decidió correr con los gastos de unas exequias de la más alta categoría, la llamada Pracht-Classe (clase de la excelencia).
+    </sys:String>
+    <sys:String x:Key="Text15">El cortejo fúnebre solemne, con un coche fúnebre de seis caballos, se dirigió primero el 14 de octubre de 1896 a la iglesia de San Carlos Borromeo para la bendición y después a la estación del Oeste (Westbahnhof).
+    </sys:String>
+    <sys:String x:Key="Text16">Entre los asistentes se encontraban numerosas personalidades de la vida cultural y musical de la ciudad.
+    </sys:String>
+    <sys:String x:Key="Text17">En el marco de una ceremonia solemne y con una gran participación de la población, los restos mortales encontraron sepultura en la cripta de la iglesia monasterial, justo debajo del órgano.
     </sys:String>
 </ResourceDictionary>
     

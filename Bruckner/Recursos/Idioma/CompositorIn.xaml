@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">The Praised Composer</sys:String>
+
+    <sys:String x:Key="Text1">“Yesterday (Good Friday) I conducted your grand and powerful 'Te Deum'. Both the musicians and the entire audience were deeply moved by the formidable work and the truly elevated thought, and at the end of the performance, I experienced what I consider the greatest triumph of a work: the audience remained seated and silent, not moving, and only broke into applause after the conductor and musicians had left their seats.”</sys:String>
+
+    <sys:String x:Key="Text2">[Gustav Mahler (1869-1911) from Hamburg to Bruckner, April 16, 1892.] Bruckner was achieving great success as a composer, and his works were performed both domestically and internationally. His triumphant career as a creator, distinguished by numerous honors, was unstoppable.</sys:String>
+
+    <sys:String x:Key="Text3">Anton Bruckner's initial focus was on church music, but with his move to Vienna and a new field of artistic activity, his compositional work shifted entirely to symphonies and secular music.</sys:String>
+
+    <sys:String x:Key="Text4">Bruckner composed a total of eleven symphonies, of which ten are complete and mostly exist in several versions. Only the last listed, Symphony No. 9 (WAB 109), remains unfinished, with only fragments of the final movement. A "study symphony" (Studiensymphonie) from 1863 and a symphony "annulled" by Bruckner (WAB 100) were excluded from the consecutive count. Bruckner did not consider these compositions worthy, so they were first performed posthumously in 1900.</sys:String>
+
+    <sys:String x:Key="Text5">When Bruckner completed his Symphony No. 1 in C minor (WAB 101) in 1865-66, he was 42 years old, which was considered relatively old for a composer.</sys:String>
+
+    <sys:String x:Key="Text6">The work premiered on May 9, 1868, in the Redoutensaal in Linz, performed by an expanded Linz theater orchestra under the composer's direction.</sys:String>
+
+    <sys:String x:Key="Text7">Another five years passed before he presented his Symphony No. 2 in C minor (WAB 102) in 1871-72.</sys:String>
+
+    <sys:String x:Key="Text8">By now, he had found his path and dedicated all his energy to symphonic creation, as shown by the chronology of the following works:</sys:String>
+
+    <sys:String x:Key="Text9">Symphony No. 3 in D minor (1872-73)</sys:String>
+
+    <sys:String x:Key="Text10">Symphony No. 4 in E-flat major (1874)</sys:String>
+
+    <sys:String x:Key="Text11">Symphony No. 5 in B-flat major (1875-76)</sys:String>
+
+    <sys:String x:Key="Text12">Symphony No. 6 in A major (1879-81)</sys:String>
+
+    <sys:String x:Key="Text13">Symphony No. 7 in E major (1881-83)</sys:String>
+
+    <sys:String x:Key="Text14">Symphony No. 8 in C minor (1884-87)</sys:String>
+
+    <sys:String x:Key="Text15">Symphony No. 9 in D minor (1887-96)</sys:String>
+
+    <sys:String x:Key="Text16">Most of the symphonies were premiered several years after they were written, and the public's reception was very ambivalent. For example, the premiere of Symphony No. 3 on December 16, 1877, at the Musikverein in Vienna was a failure. In contrast, Symphony No. 4 was met with great admiration at its premiere by the Vienna Philharmonic under the direction of Hans Richter in 1881, also at the Musikverein. However, Bruckner achieved international success with his Symphony No. 7, which was conducted by Arthur Nikisch (1855-1922) in 1884 with the Gewandhaus Orchestra of Leipzig. Bruckner had reached the peak of his glory.</sys:String>
+
+    <sys:String x:Key="Text17">“With clearly perceptible attention and growing interest, [the audience] followed the unfolding of those unique and profound symphonic thoughts contained in this work. Movement after movement, manifestations of approval and enthusiasm increased. At the end, after calling the composer persistently for a long time, he appeared and was presented with two laurel crowns.” [Report on the performance of Symphony No. 7 in Leipzig. Deutsche Zeitung, January 8, 1885.]</sys:String>
+
+
+</ResourceDictionary>

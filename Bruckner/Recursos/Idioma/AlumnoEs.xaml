@@ -10,5 +10,13 @@
 
     <sys:String x:Key="Text3">La enseñanza era obligatoria hasta los 12 años y se enseñaba lectura, escritura, cálculo y religión. Un objetivo declarado era la educación religiosa y moral de los alumnos
 .</sys:String>
-    
+
+    <sys:String x:Key="Text4"> La condición previa para ser admitido como docente era acudir a una Lehrerbildungsanstalt (institución de enseñanza para docentes), el llamado Präparandie. Los candidatos debían tener al menos 16 años y haber aprobado un examen de admisión.
+    </sys:String>
+    <sys:String x:Key="Text5">En la época de Bruckner, la formación en el Präparandie duraba diez meses e incluía ortografía, lectura, lenguaje, geografía, religión, cálculo, caligrafía y música. Era obligatorio acudir todos los días a misa, que los días festivos iba acompañada de la música de los estudiantes.
+    </sys:String>
+    <sys:String x:Key="Text6">En el plan docente de las clases de música figuraba armonía, bajo continuo, canto coral y órgano. Una vez terminada la formación con éxito, se nombraba al estudiante profesor auxiliar y, tras varios años de experiencia, este podía ascender a profesor en regla.
+    </sys:String>
+    <sys:String x:Key="Text7">El profesor de música Johann August Dürrnberger (1800-1880) pudo haber marcado a Bruckner para siempre. Dürrnberger era una figura central de la vida musical de Linz, era compositor y publicó en 1841 un libro elemental de teoría de la armonía y bajo continuo (Elementar-Lehrbuch der Harmonie- und Generalbaßlehre).
+    </sys:String>
 </ResourceDictionary>

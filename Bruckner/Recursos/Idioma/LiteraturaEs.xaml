@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">literatura</sys:String>
+    <sys:String x:Key="Text1">Publicaciones del Instituto Anton Bruckner de Linz:
+    </sys:String>
+    <sys:String x:Key="Text2">Anton Bruckner. Documentos y estudios (1979 y ss.)
+    </sys:String>
+    <sys:String x:Key="Text3">Anuarios del Instituto Anton Bruckner de Linz (1980 y ss.)
+    </sys:String>
+    <sys:String x:Key="Text4">Simposios de Bruckner. Informes (1980 y ss.)
+    </sys:String>
+    <sys:String x:Key="Text5">Conferencias y simposios de Bruckner (1983-84 y ss.)
+    </sys:String>
+    <sys:String x:Key="Text6">Boletines informativos del Instituto Anton Bruckner de Linz (2006 y ss.)
+    </sys:String>
+    <sys:String x:Key="Text7">Anton Bruckner. Ein Handbuch (Anton Bruckner. Un manual). Ed. Uwe Harten. Salzburgo, Viena: 1996.
+    </sys:String>
+    <sys:String x:Key="Text8">Leopold Nowak. Anton Bruckner. Musik und Leben (Anton Bruckner. Música y vida). Linz: 1973.
+    </sys:String>
+    <sys:String x:Key="Text9">August Göllerich/Max Auer. Anton Bruckner. Ein Lebens- und Schaffensbild (Anton Bruckner. Una imagen de la vida y la obra). Ratisbona: 1922 y ss.
+    </sys:String>
+    <sys:String x:Key="Text10">Franz Scheder. Base de datos cronológica de Anton Bruckner (www.abil.at)
+    </sys:String>
+    <sys:String x:Key="Text11">Anton Bruckner. Sämtliche Werke (Anton Bruckner. Obras completas).
+    </sys:String>
+</ResourceDictionary>

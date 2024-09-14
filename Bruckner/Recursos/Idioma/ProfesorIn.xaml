@@ -20,5 +20,25 @@
     <sys:String x:Key="Text5">This is where Bruckner wrote his Mass in C major for alto solo, 2 horns and organ (WAB 25).
         
     </sys:String>
+    <sys:String x:Key="Text6">In 1843, Bruckner was transferred to the Kronstorf school, located near the St. Florian monastery and its parish, where he soon felt "in heaven." Here, he was able to dedicate himself to music intensely once again. He took private lessons with the choir director of Enns, Leopold von Zenetti (1805-1892), which would continue until 1855. In Kronstorf, he composed several works, including the Mass in D minor (WAB 146).</sys:String>
+
+    <sys:String x:Key="Text7">After several years as an assistant, Bruckner was promoted to a full professor and in 1845 accepted a position at the St. Florian school. Additionally, in 1849 he was appointed music teacher for the choir boys, teaching them singing and violin. He devoted himself eagerly to monastic music, especially to the organ, and on February 28, 1850, the abbot appointed him provisional organist of the monastery.</sys:String>
+
+    <sys:String x:Key="Text8">In addition to his professional duties, he dedicated himself diligently to composition. This period saw the creation of the Requiem in D minor (WAB 39), the Missa solemnis in B-flat minor (WAB 29), several piano compositions, a cantata, and various songs.</sys:String>
+
+    <sys:String x:Key="Text9">Despite this, Bruckner was still uncertain about his future and wavered between dedicating himself to music or becoming a civil servant. He was an excellent organist but had no fixed employment and was hardly known as a composer.</sys:String>
+
+    <sys:String x:Key="Text10">On July 30, 1852, he wrote to the kapellmeister Ignaz Assmayr (1790-1862) in Vienna:</sys:String>
+
+    <sys:String x:Key="Text11">“Here I have no one to whom I can open my heart, and in some respects, I am not appreciated, which often pains me deeply in secret.” [Anton Bruckner, Briefe. (Sämtliche Werke 24/1) (Anton Bruckner, letters. Complete Works 24/1)]</sys:String>
+
+    <sys:String x:Key="Text12">In January 1852, he went to Vienna to visit Assmayr and show him his Requiem, and in October, he performed an organ test in front of Assmayr, Simon Sechter (1788-1867), and Gottfried Preyer (1807-1901). Despite his musical ambitions, he prepared for the secondary school teacher exam, which he passed with great success in January 1855.</sys:String>
+
+    <sys:String x:Key="Text13">In 1855, things began to fall into place for Bruckner. He had left teaching and in July of that year began a theoretical study with Simon Sechter in Vienna, which would last several years. The classes were mostly conducted by mail, and Bruckner visited his teacher in Vienna only occasionally.</sys:String>
+
+    <sys:String x:Key="Text14">“Dear friend Bruckner! I have examined your 17 notebooks with double counterpoint exercises and I am surprised by your diligence and the progress you have made in them. […] Nonetheless, I am convinced of your diligence and commitment, and I would not want your health to suffer too much from excessive mental effort. I can only tell you that I have never had a more diligent student than you.” [Simon Sechter to Bruckner, January 13, 1860]</sys:String>
+
+    <sys:String x:Key="Text15">On November 13, 1855, Bruckner won the position of organist at the Linz Cathedral. He left his job at St. Florian and moved to the state capital.</sys:String>
+
 
 </ResourceDictionary>
