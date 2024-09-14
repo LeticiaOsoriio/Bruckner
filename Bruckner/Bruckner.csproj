@@ -9,18 +9,32 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="En\**" />
+    <EmbeddedResource Remove="En\**" />
+    <None Remove="En\**" />
+    <Page Remove="En\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Recursos\Img\abb1_2.jpg" />
+    <None Remove="Recursos\Img\Hintergrund.jpg" />
+    <None Remove="Recursos\Img\idioma.png" />
+    <None Remove="Recursos\Img\saver.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Recursos\Img\abb1_2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="En\Obras\" />
-    <Folder Include="Es\Biografia\" />
+    <Content Include="Recursos\Img\Hintergrund.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\idioma.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\saver.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

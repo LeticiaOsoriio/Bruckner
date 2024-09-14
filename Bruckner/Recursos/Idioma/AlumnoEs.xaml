@@ -2,13 +2,13 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">alumno en linz</sys:String>
-    <sys:String x:Key="Texto1">Un profesor de escuela rural vivía normalmente en condiciones modestas en el siglo XIX</sys:String>
+    <sys:String x:Key="Title">alumno en linz</sys:String>
+    <sys:String x:Key="Text1">Un profesor de escuela rural vivía normalmente en condiciones modestas en el siglo XIX</sys:String>
 
-    <sys:String x:Key="Texto2">Además del mísero sueldo, recibían algunos pagos en especie, entre ellos el alojamiento en el edificio de la escuela. Aparte de la actividad docente en clases únicas, a veces con clases de noventa estudiantes o más, el profesor tenía que ocuparse también del servicio eclesiástico y gestionaba una pequeña granja para mejorar su escaso sueldo.
+    <sys:String x:Key="Text2">Además del mísero sueldo, recibían algunos pagos en especie, entre ellos el alojamiento en el edificio de la escuela. Aparte de la actividad docente en clases únicas, a veces con clases de noventa estudiantes o más, el profesor tenía que ocuparse también del servicio eclesiástico y gestionaba una pequeña granja para mejorar su escaso sueldo.
     </sys:String>
 
-    <sys:String x:Key="Texto3">La enseñanza era obligatoria hasta los 12 años y se enseñaba lectura, escritura, cálculo y religión. Un objetivo declarado era la educación religiosa y moral de los alumnos
+    <sys:String x:Key="Text3">La enseñanza era obligatoria hasta los 12 años y se enseñaba lectura, escritura, cálculo y religión. Un objetivo declarado era la educación religiosa y moral de los alumnos
 .</sys:String>
     
 </ResourceDictionary>

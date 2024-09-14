@@ -2,22 +2,22 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                      xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">Bruckner as a teacher</sys:String>
-    <sys:String x:Key="Texto1">„It is referred to as a profession, which is acknowledged by few, but benefits everyone, unfortunately! Some people in this country neither honour nor support it, is this profession unknown to you? The brave teaching profession “
+    <sys:String x:Key="Title">Bruckner as a teacher</sys:String>
+    <sys:String x:Key="Text1">„It is referred to as a profession, which is acknowledged by few, but benefits everyone, unfortunately! Some people in this country neither honour nor support it, is this profession unknown to you? The brave teaching profession “
 
     </sys:String>
 
-    <sys:String x:Key="Texto2">[Anton Bruckner, Der Lehrerstand (WAB 77), four-part men's choir (around 1847)]
+    <sys:String x:Key="Text2">[Anton Bruckner, Der Lehrerstand (WAB 77), four-part men's choir (around 1847)]
         
     </sys:String>
 
-    <sys:String x:Key="Texto3">After attending the Präparandie in 1840/41, Bruckner took a job as assistant teacher in Windhaag near Freistadt in 1841.
+    <sys:String x:Key="Text3">After attending the Präparandie in 1840/41, Bruckner took a job as assistant teacher in Windhaag near Freistadt in 1841.
 
     </sys:String>
-    <sys:String x:Key="Texto4">He led an extremely modest existence in the remote village in Mühlviertel. As well as teaching, he had to work in the fields, and supplemented his income as an entertainment and dance musician in the region's public houses in what little spare time he had.
+    <sys:String x:Key="Text4">He led an extremely modest existence in the remote village in Mühlviertel. As well as teaching, he had to work in the fields, and supplemented his income as an entertainment and dance musician in the region's public houses in what little spare time he had.
 
     </sys:String>
-    <sys:String x:Key="Texto5">This is where Bruckner wrote his Mass in C major for alto solo, 2 horns and organ (WAB 25).
+    <sys:String x:Key="Text5">This is where Bruckner wrote his Mass in C major for alto solo, 2 horns and organ (WAB 25).
         
     </sys:String>
 

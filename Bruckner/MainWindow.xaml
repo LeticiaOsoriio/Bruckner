@@ -6,29 +6,55 @@
         xmlns:local="clr-namespace:Bruckner"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="Recursos/Img/saver.jpg" ></ImageBrush>
+    </Window.Background>
     <Grid>
-        <Grid.Background>
-            <ImageBrush/>
-        </Grid.Background>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="350" />
         </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1">
+            <Button Margin="0,30,0,0" Height="80" Width="80" Click="ChangeLanguage_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Recursos/Img/idioma.png" />
+                </Button.Background>
+            </Button>
+            <TreeView Background="Transparent">
+                <TreeViewItem Header="{DynamicResource Tit1}">
+                    <TreeViewItem Header="{DynamicResource Tit2}" Tag="Biografia1" x:Name="Tit2"/>
+                    <TreeViewItem Header="{DynamicResource Tit3}" Tag="Familia" x:Name="Tit3"/>
+                    <TreeViewItem Header="{DynamicResource Tit4}" Tag="Coro" x:Name="Tit4"/>
+                    <TreeViewItem Header="{DynamicResource Tit5}" Tag="Alumno" x:Name="Tit5"/>
+                    <TreeViewItem Header="{DynamicResource Tit7}" Tag="Profesor" x:Name="Tit7"/>
+                    <TreeViewItem Header="{DynamicResource Tit8}"
+                                  Tag="Organista" x:Name="Tit8"/>
+                    <TreeViewItem Tag="Crisis" Header="{DynamicResource Tit9}" x:Name="Tit9"/>
+                    <TreeViewItem Tag="Viajes" Header="{DynamicResource Tit10}"  x:Name="Tit10"/>
+                    <TreeViewItem Tag="Viena"  Header="{DynamicResource Tit11}" x:Name="Tit11"/>
+                    <TreeViewItem Tag="Muerte" Header="{DynamicResource Tit12}" x:Name="Tit12"/>
+                </TreeViewItem>
+            </TreeView>
 
-        <!-- Menú lateral -->
-        <ListBox x:Name="MenuListBox" Background="Transparent" Grid.Column="1" SelectionChanged="MenuListBox_SelectionChanged" Margin="10">
-            <ListBoxItem Content="Biografia" Tag="Biografia1" />
-            <ListBoxItem Content="Hogar paterno e infancia" Tag="Biografia1" />
-            <ListBoxItem Content="La familia" Tag="Familia" />
-            <ListBoxItem Content="Niño del coro en st. florian" Tag="Coro" />
-            <ListBoxItem Content="Alumno en Linz" Tag="Alumno" />
-            <ListBoxItem Content="Bruckner como profesor" Tag="Profesor" />
-            <ListBoxItem Content="Organista en Linz" Tag="Organista" />
-            <ListBoxItem Content="Años de crisis" Tag="Crisis" />
-            <ListBoxItem Content="Viajes" Tag="Viajes" />
-            <ListBoxItem Content="Bruckner en Viena" Tag="Viena" />
-            <ListBoxItem Content="Muerte y ultima voluntad" Tag="Muerte" />
-        </ListBox>
+            <TreeView Background="Transparent">
+                <TreeViewItem Header="{DynamicResource Tit13}">
+                    <TreeViewItem Header="{DynamicResource Tit14}" x:Name="Tit14"/>
+                    <TreeViewItem Header="{DynamicResource Tit15}" x:Name="Tit15"/>
+                    <TreeViewItem Header="{DynamicResource Tit16}" x:Name="Tit16"/>
+                    <TreeViewItem Header="{DynamicResource Tit17}" x:Name="Tit17"/>
+                </TreeViewItem>
+            </TreeView>
+            <!-- Menú lateral -->
+            <ListBox  x:Name="MenuListBox" Background="Transparent" SelectionChanged="MenuListBox_SelectionChanged" Margin="10">
+
+                <ListBoxItem Content="{DynamicResource Tit18}" Tag="Viajes" />
+                <ListBoxItem Content="{DynamicResource Tit19}" Tag="Viajes" />
+                <ListBoxItem Content="{DynamicResource Tit20}" Tag="Viajes" />
+
+            </ListBox>
+        </StackPanel>
+        
 
         <!-- Área de contenido -->
         <Frame x:Name="ContentFrame" Grid.Column="0" NavigationUIVisibility="Hidden" />

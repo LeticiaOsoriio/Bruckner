@@ -2,16 +2,16 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">bruckner en viena</sys:String>
-    <sys:String x:Key="Texto1">Viena estaba considerada en el siglo XIX como centro importante de la conservación de la música y del arte en general. Las posibilidades de la ciudad imperial atraían a artistas de todas partes del imperio, que esperaban conseguir inspiración, desarrollo y carrera en el espíritu fértil del mundo artístico.
+    <sys:String x:Key="Title">bruckner en viena</sys:String>
+    <sys:String x:Key="Text1">Viena estaba considerada en el siglo XIX como centro importante de la conservación de la música y del arte en general. Las posibilidades de la ciudad imperial atraían a artistas de todas partes del imperio, que esperaban conseguir inspiración, desarrollo y carrera en el espíritu fértil del mundo artístico.
 
     </sys:String>
 
-    <sys:String x:Key="Texto2">La identidad musical estaba caracterizada por la esencia de Mozart, Haydn, Beethoven y Schubert, así como por los estrenos de las obras más importantes de la historia de la música. En la época de Bruckner se habían establecido varias instituciones musicales importantes en Viena:
+    <sys:String x:Key="Text2">La identidad musical estaba caracterizada por la esencia de Mozart, Haydn, Beethoven y Schubert, así como por los estrenos de las obras más importantes de la historia de la música. En la época de Bruckner se habían establecido varias instituciones musicales importantes en Viena:
 
     </sys:String>
 
-    <sys:String x:Key="Texto3">la Sociedad de Amigos de la Música (Gesellschaft der Musikfreunde), fundada en 1812; la Filarmónica de Viena (establecida como Philharmonische Konzertunternehmung), creada en 1842; la Asociación de cantantes masculinos de Viena (Wiener Männergesangverein), fundada en 1843; la Asociación de cantantes de la Sociedad de Amigos de la Música (Sängervereinigung der Gesellschaft der Musikfreunde), creada en 1858; la Academia de canto (Singakademie), instituida en 1858; la Asociación académica de canto (Akademischer Gesangverein), formada en 1858; y la Unión de Schubert (Schubertbund), fundada en 1863.
+    <sys:String x:Key="Text3">la Sociedad de Amigos de la Música (Gesellschaft der Musikfreunde), fundada en 1812; la Filarmónica de Viena (establecida como Philharmonische Konzertunternehmung), creada en 1842; la Asociación de cantantes masculinos de Viena (Wiener Männergesangverein), fundada en 1843; la Asociación de cantantes de la Sociedad de Amigos de la Música (Sängervereinigung der Gesellschaft der Musikfreunde), creada en 1858; la Academia de canto (Singakademie), instituida en 1858; la Asociación académica de canto (Akademischer Gesangverein), formada en 1858; y la Unión de Schubert (Schubertbund), fundada en 1863.
    
     </sys:String>
    

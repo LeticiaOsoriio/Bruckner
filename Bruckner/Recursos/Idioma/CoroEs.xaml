@@ -3,17 +3,17 @@
                        xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
 
-    <sys:String x:Key="Titulo">niño del coro en st. florian.</sys:String>
+    <sys:String x:Key="Title">niño del coro en st. florian.</sys:String>
 
-    <sys:String x:Key="Texto1"> Al principio, todo el esplendor influyó en los sentimientos del muchacho solo de manera inconsciente; pasaría toda una vida hasta que su renacimiento creciera desde su alma en forma de arte imperecedero“
+    <sys:String x:Key="Text1"> Al principio, todo el esplendor influyó en los sentimientos del muchacho solo de manera inconsciente; pasaría toda una vida hasta que su renacimiento creciera desde su alma en forma de arte imperecedero“
 .</sys:String>
-            <sys:String x:Key="Texto2"> [Max Auer.Anton Bruckner.Sein Leben und Werk.]
+            <sys:String x:Key="Text2"> [Max Auer.Anton Bruckner.Sein Leben und Werk.]
 .</sys:String>
-                <sys:String x:Key="Texto3"> El monasterio de St.Florian de los canónigos agustinos es uno de los monasterios más importantes de Austria.Aquí la ciencia y el arte juegan un papel primordial desde tiempos inmemoriales y el monasterio dispone de colecciones valiosas y una notable biblioteca.
+                <sys:String x:Key="Text3"> El monasterio de St.Florian de los canónigos agustinos es uno de los monasterios más importantes de Austria.Aquí la ciencia y el arte juegan un papel primordial desde tiempos inmemoriales y el monasterio dispone de colecciones valiosas y una notable biblioteca.
 .</sys:String>
-                    <sys:String x:Key="Texto4"> Bajo el mandato del abad David Fuhrmann, entre 1667 y 1689, empezó la barroquización del monasterio, que se ampliaría hasta convertirse en una joya artística única. Bajo el mandato del abad Johann Baptist Födermayr, entre 1716 y 1732, el monasterio obtuvo su propio teatro.
+                    <sys:String x:Key="Text4"> Bajo el mandato del abad David Fuhrmann, entre 1667 y 1689, empezó la barroquización del monasterio, que se ampliaría hasta convertirse en una joya artística única. Bajo el mandato del abad Johann Baptist Födermayr, entre 1716 y 1732, el monasterio obtuvo su propio teatro.
 .</sys:String>
-                        <sys:String x:Key="Texto5"> Con el órgano construido por Franz Xaver Krisman (1726-95), la iglesia del monasterio contaba con el mayor órgano de toda la monarquía del Danubio en los tiempos de Bruckner.
+                        <sys:String x:Key="Text5"> Con el órgano construido por Franz Xaver Krisman (1726-95), la iglesia del monasterio contaba con el mayor órgano de toda la monarquía del Danubio en los tiempos de Bruckner.
 .</sys:String>
 
 </ResourceDictionary> 

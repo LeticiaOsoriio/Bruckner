@@ -2,21 +2,21 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">años de crisis</sys:String>
-    <sys:String x:Key="Texto1">„Vayamos a Rusia y adonde sea, si en la patria no nos quieren conocer. Ya ves en qué punto de satisfacción me encuentro y cómo amo a los habitantes de Linz por semejante reconocimiento“
+    <sys:String x:Key="Title">años de crisis</sys:String>
+    <sys:String x:Key="Text1">„Vayamos a Rusia y adonde sea, si en la patria no nos quieren conocer. Ya ves en qué punto de satisfacción me encuentro y cómo amo a los habitantes de Linz por semejante reconocimiento“
 
     </sys:String>
-    <sys:String x:Key="Texto2">[Bruckner a su amigo Rudolf Weinwurm, el 18 de octubre de 1864.]
+    <sys:String x:Key="Text2">[Bruckner a su amigo Rudolf Weinwurm, el 18 de octubre de 1864.]
    
     </sys:String>
 
-    <sys:String x:Key="Texto3">Bruckner se daba cada vez más cuenta de que tampoco Linz le ofrecía perspectivas en el aspecto artístico.
+    <sys:String x:Key="Text3">Bruckner se daba cada vez más cuenta de que tampoco Linz le ofrecía perspectivas en el aspecto artístico.
 
     </sys:String>
-    <sys:String x:Key="Texto4">Desesperado, buscó otras oportunidades de desarrollo y se interesó, entre otros, por un puesto como músico en la capilla de la Corte del emperador Maximiliano I en México.
+    <sys:String x:Key="Text4">Desesperado, buscó otras oportunidades de desarrollo y se interesó, entre otros, por un puesto como músico en la capilla de la Corte del emperador Maximiliano I en México.
 
     </sys:String>
-    <sys:String x:Key="Texto5">Bruckner dedicó un tiempo de su vida al destino de Maximiliano, quien fue ejecutado en 1867 en México tras una desdichada regencia, y leyó todos los informes que tuvieran que ver con el emperador y México.
+    <sys:String x:Key="Text5">Bruckner dedicó un tiempo de su vida al destino de Maximiliano, quien fue ejecutado en 1867 en México tras una desdichada regencia, y leyó todos los informes que tuvieran que ver con el emperador y México.
     
     </sys:String>
 </ResourceDictionary>

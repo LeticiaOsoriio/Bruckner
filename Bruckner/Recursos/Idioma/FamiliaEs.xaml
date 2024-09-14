@@ -2,30 +2,30 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">la familia
+    <sys:String x:Key="Title">la familia
         
     </sys:String>
-    <sys:String x:Key="Texto1">Los escritos de aquellos días describen a sus habitantes como trabajadores, aplicados y de carácter alegre. Agricultores, artesanos, profesores y párrocos formaban una familia pueblerina que se sentía protegida por la iglesia y la parroquia. No obstante, también sabían enfrentarse a las preocupaciones de la vida con perseverancia“
+    <sys:String x:Key="Text1">Los escritos de aquellos días describen a sus habitantes como trabajadores, aplicados y de carácter alegre. Agricultores, artesanos, profesores y párrocos formaban una familia pueblerina que se sentía protegida por la iglesia y la parroquia. No obstante, también sabían enfrentarse a las preocupaciones de la vida con perseverancia“
 
     </sys:String>
 
-    <sys:String x:Key="Texto2">[Leopold Nowak, Anton Bruckner. Musik und Leben]
+    <sys:String x:Key="Text2">[Leopold Nowak, Anton Bruckner. Musik und Leben]
         
     </sys:String>
 
-    <sys:String x:Key="Texto3">Anton Bruckner procedía de una familia de profesores. Su abuelo Joseph Bruckner (1749–1831), nacido en Oed, en Baja Austria, era profesor.
+    <sys:String x:Key="Text3">Anton Bruckner procedía de una familia de profesores. Su abuelo Joseph Bruckner (1749–1831), nacido en Oed, en Baja Austria, era profesor.
 
     </sys:String>
-    <sys:String x:Key="Texto4">Se trasladó a Ansfelden probablemente en 1776 y allá sucedió a su suegro, Sebastian Kletzer (1716-1776) como profesor de la escuela.
+    <sys:String x:Key="Text4">Se trasladó a Ansfelden probablemente en 1776 y allá sucedió a su suegro, Sebastian Kletzer (1716-1776) como profesor de la escuela.
 
     </sys:String>
-    <sys:String x:Key="Texto5">Por motivos de salud, Joseph Bruckner cedió el puesto a su hijo Anton (1791-1837) en 1822.
+    <sys:String x:Key="Text5">Por motivos de salud, Joseph Bruckner cedió el puesto a su hijo Anton (1791-1837) en 1822.
 
     </sys:String>
-    <sys:String x:Key="Texto6">La madre de Bruckner, Theresia Helm (1801-1860), procedía de Neuzeug, cerca de Sierning.
+    <sys:String x:Key="Text6">La madre de Bruckner, Theresia Helm (1801-1860), procedía de Neuzeug, cerca de Sierning.
 
     </sys:String>
-    <sys:String x:Key="Texto7">Sus padres, Johann Ferdinand (1769-1816) y Anna Maria (1773-1811), eran latifundistas y gestionaban un mesón.
+    <sys:String x:Key="Text7">Sus padres, Johann Ferdinand (1769-1816) y Anna Maria (1773-1811), eran latifundistas y gestionaban un mesón.
    
     </sys:String>
 </ResourceDictionary>

@@ -2,12 +2,12 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">parental home and childhood</sys:String>
-    <sys:String x:Key="Texto1">„Redeeming spirits are often born where they are least expected. “</sys:String>
+    <sys:String x:Key="Title">parental home and childhood</sys:String>
+    <sys:String x:Key="Text1">„Redeeming spirits are often born where they are least expected. “</sys:String>
 
-    <sys:String x:Key="Texto2"> [August Göllerich/Max Auer, Anton Bruckner. Ein Lebens- und Schaffensbild.]</sys:String>
+    <sys:String x:Key="Text2"> [August Göllerich/Max Auer, Anton Bruckner. Ein Lebens- und Schaffensbild.]</sys:String>
 
-    <sys:String x:Key="Texto3">Anton Bruckner was born on 4 September 1824 as the eldest son of schoolmaster, Anton Bruckner (1791-1837) and his wife Theresia (1801-1860), nee Helm, in the schoolmaster's house (now the Anton Bruckner Museum) in Ansfelden in Upper Austria</sys:String>
-    <sys:String x:Key="Texto4">As was then customary, he was baptised Joseph Anton on the day he was born, and his Godmother was Rosalia Mayrhofer, his maternal great-aunt who worked as a housekeeper at the vicarage in nearby Wolfern.</sys:String>
+    <sys:String x:Key="Text3">Anton Bruckner was born on 4 September 1824 as the eldest son of schoolmaster, Anton Bruckner (1791-1837) and his wife Theresia (1801-1860), nee Helm, in the schoolmaster's house (now the Anton Bruckner Museum) in Ansfelden in Upper Austria</sys:String>
+    <sys:String x:Key="Text4">As was then customary, he was baptised Joseph Anton on the day he was born, and his Godmother was Rosalia Mayrhofer, his maternal great-aunt who worked as a housekeeper at the vicarage in nearby Wolfern.</sys:String>
 </ResourceDictionary>
     

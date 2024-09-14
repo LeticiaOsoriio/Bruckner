@@ -2,20 +2,20 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                      xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">crisis years</sys:String>
-    <sys:String x:Key="Texto1">„Let us go to Russia or somewhere, if no-one in the Fatherland wants to recognise us. You will see how satisfied I am and how I will love the people of Linz as a result of such recognition."“
+    <sys:String x:Key="Title">crisis years</sys:String>
+    <sys:String x:Key="Text1">„Let us go to Russia or somewhere, if no-one in the Fatherland wants to recognise us. You will see how satisfied I am and how I will love the people of Linz as a result of such recognition."“
 
     </sys:String>
-    <sys:String x:Key="Texto2">[Bruckner to his friend, Rudolf Weinwurm, 18 October 1864.]
+    <sys:String x:Key="Text2">[Bruckner to his friend, Rudolf Weinwurm, 18 October 1864.]
     </sys:String>
 
-    <sys:String x:Key="Texto3">Bruckner increasingly recognised that Linz offered him no musical prospects.
+    <sys:String x:Key="Text3">Bruckner increasingly recognised that Linz offered him no musical prospects.
 
     </sys:String>
-    <sys:String x:Key="Texto4">He desperately sought development opportunities and applied for positions such as that of musician in the Court Orchestra of Emperor Maximilian I in Mexico.
+    <sys:String x:Key="Text4">He desperately sought development opportunities and applied for positions such as that of musician in the Court Orchestra of Emperor Maximilian I in Mexico.
 
     </sys:String>
-    <sys:String x:Key="Texto5">Bruckner dedicó un tiempo de su vida al destino de Maximiliano, quien fue ejecutado en 1867 en México tras una desdichada regencia, y leyó todos los informes que tuvieran que ver con el emperador y México.
+    <sys:String x:Key="Text5">Bruckner dedicó un tiempo de su vida al destino de Maximiliano, quien fue ejecutado en 1867 en México tras una desdichada regencia, y leyó todos los informes que tuvieran que ver con el emperador y México.
 The fate of Maximilian, who was executed in Mexico in 1867 following an unhappy reign, fascinated Bruckner throughout his life and he read any reports concerning Maximilian and Mexico.
     </sys:String>
 </ResourceDictionary>

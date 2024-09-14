@@ -2,14 +2,14 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                                         xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">student in Linz</sys:String>
-    <sys:String x:Key="Texto1">In the 19th century, most rural school teachers lived in modest circumstances.
+    <sys:String x:Key="Title">student in Linz</sys:String>
+    <sys:String x:Key="Text1">In the 19th century, most rural school teachers lived in modest circumstances.
     </sys:String>
 
-    <sys:String x:Key="Texto2">As well as a meagre salary, they also received some payment in kind, including free accommodation in the school building. In addition to their teaching duties in the single classes which sometimes comprised ninety or more pupils, teachers also had to organise church services and run small farms to supplement their paltry pay.
+    <sys:String x:Key="Text2">As well as a meagre salary, they also received some payment in kind, including free accommodation in the school building. In addition to their teaching duties in the single classes which sometimes comprised ninety or more pupils, teachers also had to organise church services and run small farms to supplement their paltry pay.
     </sys:String>
 
-    <sys:String x:Key="Texto3">Education was compulsory until the age of twelve, and the curriculum included reading, writing, arithmetic and religion. Its stated objective was the religious and moral education of pupils.
+    <sys:String x:Key="Text3">Education was compulsory until the age of twelve, and the curriculum included reading, writing, arithmetic and religion. Its stated objective was the religious and moral education of pupils.
 .</sys:String>
 
 </ResourceDictionary> 

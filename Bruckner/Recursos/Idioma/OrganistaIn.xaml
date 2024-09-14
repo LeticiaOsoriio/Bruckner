@@ -2,19 +2,19 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">organist in Linz</sys:String>
-    <sys:String x:Key="Texto1">Around the middle of the 19th century, the small town of Linz had approximately 35,000 residents.
+    <sys:String x:Key="Title">organist in Linz</sys:String>
+    <sys:String x:Key="Text1">Around the middle of the 19th century, the small town of Linz had approximately 35,000 residents.
 
     </sys:String>
 
-    <sys:String x:Key="Texto2">Its most important musical institutions included the Linz State Theatre, the Gesellschaft der Musikfreunde (founded in 1821), the Liedertafel Frohsinn (1845) and the Männergesangverein Sängerbund (1857), with the regular concerts by the military bands stationed in Linz enjoying great popularity.
+    <sys:String x:Key="Text2">Its most important musical institutions included the Linz State Theatre, the Gesellschaft der Musikfreunde (founded in 1821), the Liedertafel Frohsinn (1845) and the Männergesangverein Sängerbund (1857), with the regular concerts by the military bands stationed in Linz enjoying great popularity.
 
     </sys:String>
 
-    <sys:String x:Key="Texto3">Bruckner was closely associated with the Liedertafel Frohsinn, initially as a singer, and then as its choirmaster and archivist. The Liedertafel organised charity concerts and a variety of evening entertainment, occasionally accompanying masses.
+    <sys:String x:Key="Text3">Bruckner was closely associated with the Liedertafel Frohsinn, initially as a singer, and then as its choirmaster and archivist. The Liedertafel organised charity concerts and a variety of evening entertainment, occasionally accompanying masses.
 
     </sys:String>
-    <sys:String x:Key="Texto4">Attending singing festivals was considered to be an important social event, and involved the Liedertafel travelling to Germany.
+    <sys:String x:Key="Text4">Attending singing festivals was considered to be an important social event, and involved the Liedertafel travelling to Germany.
     </sys:String>
 
 </ResourceDictionary>

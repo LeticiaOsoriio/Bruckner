@@ -2,11 +2,11 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Titulo">Hogar paterno e infancia</sys:String>
-    <sys:String x:Key="Texto1">„A menudo, los espíritus redentores nacen donde menos se los espera“</sys:String>
+    <sys:String x:Key="Title">Hogar paterno e infancia</sys:String>
+    <sys:String x:Key="Text1">„A menudo, los espíritus redentores nacen donde menos se los espera“</sys:String>
 
-    <sys:String x:Key="Texto2">[August Göllerich/Max Auer, Anton Bruckner]</sys:String>
+    <sys:String x:Key="Text2">[August Göllerich/Max Auer, Anton Bruckner]</sys:String>
 
-    <sys:String x:Key="Texto3">Anton Bruckner nació el 4 de septiembre de 1824 como hijo mayor del profesor de escuela Anton Bruckner (1791-1837) y su esposa Theresia (1801-1860), nacida Helm, en el edificio de profesores (hoy, el Museo de Anton Bruckner de Ansfelden) en Ansfelden, Alta Austria.</sys:String>
-    <sys:String x:Key="Texto4">Siguiendo la costumbre, el día de su nacimiento fue bautizado con el nombre de Joseph Anton y su madrina fue Rosalia Mayrhofer, su tía abuela por parte de madre, que trabajaba como ama de llaves en la parroquia de la cercana Wolfern.</sys:String>
+    <sys:String x:Key="Text3">Anton Bruckner nació el 4 de septiembre de 1824 como hijo mayor del profesor de escuela Anton Bruckner (1791-1837) y su esposa Theresia (1801-1860), nacida Helm, en el edificio de profesores (hoy, el Museo de Anton Bruckner de Ansfelden) en Ansfelden, Alta Austria.</sys:String>
+    <sys:String x:Key="Text4">Siguiendo la costumbre, el día de su nacimiento fue bautizado con el nombre de Joseph Anton y su madrina fue Rosalia Mayrhofer, su tía abuela por parte de madre, que trabajaba como ama de llaves en la parroquia de la cercana Wolfern.</sys:String>
 </ResourceDictionary>
