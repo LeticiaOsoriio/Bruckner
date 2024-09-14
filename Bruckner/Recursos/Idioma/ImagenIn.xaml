@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Title">The Image of Bruckner Over Time</sys:String>
+
+    <sys:String x:Key="Text1">"New perspectives within biography, creation, and reception cannot make us forget that artists' images often change over time and are much more characterized by subjective construction than by historical reconstruction."</sys:String>
+
+    <sys:String x:Key="Text2">[Erich Wolfgang Partsch. Reception. In: Anton Bruckner. A Handbook.] The image of the composer Anton Bruckner underwent significant changes over time.</sys:String>
+
+    <sys:String x:Key="Text3">Where he was once considered an "underrated genius" and an "innocent" artistic figure, today he is seen as an ambitious social figure who consciously propelled his career.</sys:String>
+
+    <sys:String x:Key="Text4">Bruckner's persona, characterized by his aspirations for recognition and success and his principled openness towards various ideological and political groups, was appropriated by various circumstances and political movements.</sys:String>
+
+    <sys:String x:Key="Text5">His deep Catholic faith and undeniable rural origins particularly suited German Catholic and nationalist circles.</sys:String>
+
+    <sys:String x:Key="Text6">Bruckner's declaration in favor of Richard Wagner also facilitated a German nationalist appropriation from the 1870s onwards, which did not end with the year 1945.</sys:String>
+
+    <sys:String x:Key="Text7">In the 1920s, attempts to oppose contemporary art with Bruckner as a leading figure increased.</sys:String>
+
+    <sys:String x:Key="Text8">As a "musical god," he became an idol of Catholic art, and National Socialism praised him as a "German hero of sound."</sys:String>
+
+    <sys:String x:Key="Text9">He was glorified as a prototype of the "original genius," rooted in German Blut und Boden ("blood and soil"), and at the request of Adolf Hitler (1889-1945), a "Bruckner's Bayreuth" was created in St. Florian, complete with Bruckner's Reich orchestra and choir.</sys:String>
+
+    <sys:String x:Key="Text10">Hitler ordered that his "heroic death" be mourned, among other things, with a radio broadcast of the adagio from Symphony No. 7.</sys:String>
+
+
+</ResourceDictionary>

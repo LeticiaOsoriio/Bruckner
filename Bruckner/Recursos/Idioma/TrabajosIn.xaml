@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Composition Work</sys:String>
+
+    <sys:String x:Key="Text1">“I have come to the full conviction that my Symphony No. 4, the Romantic, urgently requires a complete overhaul.”</sys:String>
+
+    <sys:String x:Key="Text2">[Bruckner to Wilhelm Tappert on October 12, 1877.] Bruckner’s symphonic creation was influenced by the works of Ludwig van Beethoven and Franz Schubert, whose music he had extensively known since his childhood as a choirboy.</sys:String>
+
+    <sys:String x:Key="Text3">Richard Wagner, with whom he met personally several times, was extremely important to Bruckner, as he felt a fervent respect for him.</sys:String>
+
+    <sys:String x:Key="Text4">“Most Eminent Master! Moved to the core by the majesty of your magnificent and immortal creations, I dare today, on this eternally celebrated great festival, to lay my deepest homage at the feet of the creator of all these wonderful ideals. Praise be to God for having given us this great master today and for having inspired him to compose what makes us infinitely happy!” [Bruckner to Richard Wagner on his birthday, May 20, 1878.]</sys:String>
+
+    <sys:String x:Key="Text5">From a compositional point of view, Bruckner took a new and independent path, contributing decisively to the evolution of the symphony genre, which had been considered dead on multiple occasions. His unmistakable style is characterized by monumentality, expansive thematic development, and an emphasis on brass instruments.</sys:String>
+
+    <sys:String x:Key="Text6">Variations based on his character are typical of Bruckner’s composition, as the composer was not usually satisfied with the original version of a symphony but tried (sometimes at intervals of several years) to improve it subsequently. Therefore, many of his symphonies exist in several versions that differ significantly from each other and pose a great challenge for posterity.
+
+It is also worth mentioning that Bruckner dedicated each of his symphonies to someone. These were superiors, patrons, and people to whom he felt committed, including people from his immediate circle as well as prominent personalities or public institutions.</sys:String>
+
+    <sys:String x:Key="Text7">The list includes the Imperial Minister of Education and the Obersthofmeister, the King of Bavaria and Emperor Franz Joseph I, and even “God, our Lord.”</sys:String>
+
+    <sys:String x:Key="Text8">Praiseworthy and admirable Philharmonic Society: […] Something very important to me is to be able to dedicate the work [Symphony No. 2 in C minor] to its original destination. Since every father seeks the best place for his child, how can it be wrong for me to do the same and ask you: May I dedicate the work to you? Since it could not be placed in better hands than yours, a positive response would make me very happy.</sys:String>
+
+    <sys:String x:Key="Text9">Vienna, October 27, 1873 Anton Bruckner mp. [Bruckner to the Vienna Philharmonic.]</sys:String>
+
+
+</ResourceDictionary>

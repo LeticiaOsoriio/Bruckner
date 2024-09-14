@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Works</sys:String>
+
+    <sys:String x:Key="Text1">Anton Bruckner's oeuvre includes sacred and secular choral music, orchestral works, chamber music, piano pieces, and organ works. The Anton Bruckner Works Directory (WAB) lists a total of 149 compositions, among which are:</sys:String>
+
+    <sys:String x:Key="Text2">9 symphonies</sys:String>
+
+    <sys:String x:Key="Text3">7 masses</sys:String>
+
+    <sys:String x:Key="Text4">59 spiritual songs</sys:String>
+
+    <sys:String x:Key="Text5">50 secular songs, cantatas, and choruses</sys:String>
+
+</ResourceDictionary>

@@ -20,4 +20,26 @@
     </sys:String>
     <sys:String x:Key="Text6">But Bruckner's wish remained unfulfilled as he died at 3:30 pm on 11 October 1896 in his apartment in Kustodentrakt at Schloss Belvedere.
     </sys:String>
+    <sys:String x:Key="Text7">The body remained at his home for three days to allow friends and admirers to bid farewell.</sys:String>
+
+    <sys:String x:Key="Text8">To decorate the room, Emperor Franz Joseph I sent a floral arrangement from the Court's garden.</sys:String>
+
+    <sys:String x:Key="Text9">Even while alive, Bruckner had thought about his final resting place. According to his wishes, his circle of life was to end where his artistic and personal journey had begun: at the St. Florian monastery, preferably beneath his beloved organ. Bruckner, who had expressed his last wishes in a will, had addressed the abbot of St. Florian about this matter in 1885 and had reiterated his wishes during his final visit to St. Florian at Easter in 1894.</sys:String>
+
+    <sys:String x:Key="Text10">As an alternative, Bruckner considered being buried in the cemetery of the Steyr parish church. He would only reluctantly have accepted being buried in Vienna:</sys:String>
+
+    <sys:String x:Key="Text11">“If the people of Steyr will not accept me, then the people of Vienna will have me, in the name of God.” [August Göllerich/Max Auer, Anton Bruckner. A Life and Work Portrait.]</sys:String>
+
+    <sys:String x:Key="Text12">The transfer of the remains from Vienna to St. Florian was done by rail.</sys:String>
+
+    <sys:String x:Key="Text13">According to current hygiene regulations, the body had to be embalmed for transport, a process for which Bruckner had already arranged in 1893 with the guarantee of Dr. Richard Paltauf (1858-1924).</sys:String>
+
+    <sys:String x:Key="Text14">Since no request was made for a grave in the Vienna Central Cemetery, the Vienna municipal council decided to cover the costs of a high-class funeral, known as Pracht-Classe (class of excellence).</sys:String>
+
+    <sys:String x:Key="Text15">The solemn funeral procession, with a six-horse hearse, first went on October 14, 1896, to the Church of St. Charles Borromeo for the blessing and then to the West Station (Westbahnhof).</sys:String>
+
+    <sys:String x:Key="Text16">Among the attendees were numerous personalities from the city's cultural and musical life.</sys:String>
+
+    <sys:String x:Key="Text17">During a solemn ceremony with a large public participation, the remains were interred in the monastery church crypt, right beneath the organ.</sys:String>
+
 </ResourceDictionary>

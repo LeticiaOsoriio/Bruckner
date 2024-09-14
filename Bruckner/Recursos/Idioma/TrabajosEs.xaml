@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">trabajo de composición
+    </sys:String>
+    <sys:String x:Key="Text1">„He llegado a la plena convicción de que mi sinfonía n.º 4, la romántica, requiere urgentemente un cambio a fondo.“
+    </sys:String>
+
+    <sys:String x:Key="Text2">[Bruckner a Wilhelm Tappert el 12 de octubre de 1877.]La creación sinfónica de Bruckner estaba influenciada por las obras de Ludwig van Beethoven y Franz Schubert, cuyo trabajo había conocido ampliamente ya como niño del coro.
+    </sys:String>
+
+    <sys:String x:Key="Text3">Richard Wagner, con quien se encontró personalmente varias veces, era sumamente importante para Bruckner, ya que este sentía un ferviente respeto por él
+    </sys:String>
+    <sys:String x:Key="Text4">„¡Eminentísimo maestro!
+Conmovido hasta lo más profundo por la majestuosidad de sus magníficas e inmortales creaciones, me atrevo hoy, en esta gran fiesta eternamente célebre, a poner mi más profundo homenaje a los pies del creador de todos estos maravillosos ideales. ¡Alabado sea Dios por habernos dado hoy a este gran maestro y por haberlo hecho componer lo que tan infinitamente felices nos hace!“
+[Bruckner a Richard Wagner con motivo de su cumpleaños el 20 de mayo de 1878.]
+    </sys:String>
+
+    <sys:String x:Key="Text5">Bajo el punto de vista compositivo, Bruckner tomó un camino nuevo e independiente y, con ello, contribuyó de manera decisiva a la evolución del género de la sinfonía, considerado muerto en múltiples ocasiones. Su estilo inconfundible está caracterizado por la monumentalidad, trazados temáticos amplios y un acento en el viento metal.
+    </sys:String>
+
+    <sys:String x:Key="Text6">Las variaciones fundadas en su carácter son típicas de la composición de Bruckner, ya que el compositor no solía mostrarse satisfecho con la versión original de una sinfonía, sino que intentaba (a veces en intervalos de varios años) mejorarla posteriormente.
+Por eso, de muchas sinfonías existen varias versiones que se diferencian mucho entre sí y que suponen un gran desafío para la posteridad.
+
+Cabe mencionar también el hecho de que Bruckner dedicara cada una de sus sinfonías a alguien. Estos eran superiores, mecenas y personas con las que se sentía comprometido, tanto gente de su entorno directo como personalidades prominentes o instituciones de la vida pública.
+
+    </sys:String>
+    <sys:String x:Key="Text7">La lista va desde el Ministro de Enseñanza imperial y el Obersthofmeister, pasando por el rey de Baviera y el emperador Franz Joseph I hasta «Dios, nuestro Señor».
+    </sys:String>
+
+    <sys:String x:Key="Text8">Encomiable y admirable
+sociedad filarmónica:
+[…] Algo muy importante para mí es poder dirigir la obra [sinfonía n.º 2 en do menor] a su destino original. Dado que todo padre busca el mejor lugar para su hijo, cómo se me va a tomar a mal que yo haga lo mismo y les ruegue:
+¿Puedo dedicarles la obra a ustedes?
+Ya que no puede ir a parar a mejores manos que a las suyas, una respuesta afirmativa me haría muy feliz.
+    </sys:String>
+    <sys:String x:Key="Text9">Viena, el 27 de octubre de 1873                             Anton Bruckner mp.
+[Bruckner a la Filarmónica de Viena.]
+    </sys:String>
+
+</ResourceDictionary>

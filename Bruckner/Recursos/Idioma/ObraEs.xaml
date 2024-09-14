@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">obras</sys:String>
+    <sys:String x:Key="Text1">La obra de Anton Bruckner incluye música coral religiosa y laica, obras orquestales, música de cámara, obras para piano y piezas para órgano. El directorio de obras de Anton Bruckner (WAB) tiene registradas en total 149 composiciones, entre las cuales se hallan:
+    </sys:String>
+    <sys:String x:Key="Text2">9 sinfonías
+    </sys:String>
+    <sys:String x:Key="Text3">7 misas
+    </sys:String>
+    <sys:String x:Key="Text4">59 canciones espirituales
+    </sys:String>
+    <sys:String x:Key="Text5">50 canciones, cantatas y coros laicos
+    </sys:String>
+</ResourceDictionary>

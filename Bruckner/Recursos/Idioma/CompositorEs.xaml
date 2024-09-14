@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">el compositor elogiado
+    </sys:String>
+    <sys:String x:Key="Text1">„Ayer (Viernes Santo) dirigí su grandioso y poderoso 'Te Deum'. Tanto los músicos como todo el público estaban profundamente conmovidos por la formidable obra y el verdaderamente elevado pensamiento, y yo viví al final de la representación lo que considero el mayor triunfo de una obra: el público permaneció sentado y en silencio, sin moverse, y no fue hasta después de que el director y los músicos dejaran sus asientos que rompieron los aplausos.“
+        </sys:String>
+        <sys:String x:Key="Text2">[Gustav Mahler (1869-1911) desde Hamburgo a Bruckner, el 16 de abril de 1892.]Bruckner cosechaba grandes éxitos como compositor y sus obras se tocaban tanto dentro como fuera del país. Su cortejo triunfal como creador, distinguido entretanto numerosas veces con homenajes, era imparable.
+            </sys:String>
+            <sys:String x:Key="Text3">El interés de Anton Bruckner se centraba originalmente en la música eclesiástica pero, con su traslado a Viena y un nuevo campo de actividad artística, su creación compositiva cambió totalmente a la sinfonía y al terreno laico.
+                </sys:String>
+                <sys:String x:Key="Text4">Bruckner compuso once sinfonías en total, de las cuales diez están íntegras y mayormente en varias versiones. Solo la última de las enumeradas, la sinfonía n.º 9 (WAB 109), quedó inacabada y del último movimiento solo existen fragmentos. Una «sinfonía de estudio» (Studiensymphonie) del año 1863 y una sinfonía «anulada» por Bruckner (WAB 100) se excluyeron del recuento consecutivo. Bruckner no consideraba estas composiciones como dignas, por lo que se representaron por primera vez póstumamente en 1900.
+                </sys:String>
+                <sys:String x:Key="Text5">Cuando Bruckner terminó su sinfonía n.º 1 en do menor (WAB 101), en 1865-66, tenía 42 años, lo que se consideraba relativamente mayor para un compositor.
+                </sys:String>
+                <sys:String x:Key="Text6">La obra se estrenó el 9 de mayo de 1868 en la Redoutensaal, en Linz, de la mano de la orquestra del teatro de Linz ampliada bajo la dirección del compositor.
+                </sys:String>
+                <sys:String x:Key="Text7">Pasaron otros cinco años hasta que presentara su sinfonía n.º 2 en do menor (WAB 102), en 1871-72.
+                </sys:String>
+                <sys:String x:Key="Text8">Ahora había encontrado el camino y dedicaba todas sus energías a la creación sinfónica, como muestra la cronología de las obras siguientes:
+                </sys:String>
+                <sys:String x:Key="Text9">Sinfonía n.º 3 en re menor (1872-73)
+                </sys:String>
+                <sys:String x:Key="Text10"> Sinfonía n.º 4 en mi bemol mayor (1874)
+                </sys:String>
+                <sys:String x:Key="Text11">Sinfonía n.º 5 en si bemol mayor (1875-76)
+                </sys:String>
+                <sys:String x:Key="Text12"> Sinfonía n.º 6 en la mayor (1879-81)
+                </sys:String>
+                <sys:String x:Key="Text13"> Sinfonía n.º 7 en mi mayor (1881-83)
+                </sys:String>
+                <sys:String x:Key="Text14"> Sinfonía n.º 8 en do menor (1884-87)
+                </sys:String>
+                <sys:String x:Key="Text15"> Sinfonía n.º 9 en re menor (1887-96)
+                </sys:String>
+                <sys:String x:Key="Text16">La mayoría de sinfonías se estrenaron varios años después de que fueran escritas y la aceptación del público era muy ambivalente. Por ejemplo, el estreno de la sinfonía n.º 3 el 16 de diciembre de 1877 en el Musikverein de Viena resultó ser un fracaso. Por el contrario, la sinfonía n.º 4 causó gran admiración en su estreno llevado a cabo por la Filarmónica de Viena bajo la dirección de Hans Richter en 1881, también en el Musikverein. No obstante, Bruckner consiguió su éxito internacional con su sinfonía n.º 7, que dirigió Arthur Nikisch (1855-1922) en 1884 con la orquesta de la Gewandhaus de Leipzig. Bruckner había alcanzado el punto álgido de su gloria.
+                </sys:String>
+                <sys:String x:Key="Text17">„Con una atención claramente perceptible y un creciente interés, [el público] seguía ahora el despliegue de aquellos pensamientos sinfónicos, únicos y profundos, que alberga esta obra. Movimiento tras movimiento aumentaban las manifestaciones de aprobación y entusiasmo. Al final, tras llamar al compositor de forma persistente durante largo rato, este apareció y se le hizo entrega de dos coronas de laurel.“
+[Noticia sobre la representación de la sinfonía n.º 7 en Leipzig. Deutsche Zeitung, el 8 de enero de 1885.]
+                </sys:String>
+                
+</ResourceDictionary>

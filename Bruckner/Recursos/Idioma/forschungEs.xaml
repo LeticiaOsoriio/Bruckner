@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">bruckner-forschung</sys:String>
+
+    <sys:String x:Key="Text1">Con la fundación del Instituto Anton Bruckner en Linz (ABIL) (www.abil.at), la nueva Bruckner-Forschung obtuvo en 1978 una institución de investigación central.
+    </sys:String>
+    <sys:String x:Key="Text2">Su trabajo principal es la reconstrucción de la vida y obra de Anton Bruckner.
+    </sys:String>
+    <sys:String x:Key="Text3">Además de la investigación fundamental, el instituto se encarga de la colección y documentación de fuentes, la edición de publicaciones científicas y el fomento y realización de conferencias, simposios y exposiciones.
+    </sys:String>
+    <sys:String x:Key="Text4">El instituto dispone de una colección de datos y documentos única, así como de una extensa biblioteca.
+    </sys:String>
+    <sys:String x:Key="Text5">La Bruckner-Forschung también está unida al Instituto de Investigación Histórica del Arte y de la Música de la Academia Austriaca de Ciencias de Viena.
+    </sys:String>
+</ResourceDictionary>
