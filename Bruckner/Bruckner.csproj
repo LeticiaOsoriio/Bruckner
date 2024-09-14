@@ -26,7 +26,7 @@
     <None Remove="Recursos\audio\CoroIn.mp3" />
     <None Remove="Recursos\audio\CrisisEs.mp3" />
     <None Remove="Recursos\audio\CrisisIn.mp3" />
-    <None Remove="Recursos\audio\Imagen.mp3" />
+    <None Remove="Recursos\audio\ImagenEs.mp3" />
     <None Remove="Recursos\audio\ImagenIn.mp3" />
     <None Remove="Recursos\audio\menuIn.mp3" />
     <None Remove="Recursos\audio\MuerteEs.mp3" />
@@ -35,8 +35,8 @@
     <None Remove="Recursos\audio\ProfesorIn.mp3" />
     <None Remove="Recursos\audio\TrabajoEs.mp3" />
     <None Remove="Recursos\audio\TrabajoIn.mp3" />
+    <None Remove="Recursos\audio\ViajeEs.mp3" />
     <None Remove="Recursos\audio\ViajeIn.mp3" />
-    <None Remove="Recursos\audio\ViajesEs.mp3" />
     <None Remove="Recursos\Img\abb10_2.jpg" />
     <None Remove="Recursos\Img\abb11_2.jpg" />
     <None Remove="Recursos\Img\abb1_2.jpg" />
@@ -84,7 +84,7 @@
     <Content Include="Recursos\audio\CrisisIn.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Recursos\audio\Imagen.mp3">
+    <Content Include="Recursos\audio\ImagenEs.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\audio\ImagenIn.mp3">
@@ -117,7 +117,7 @@
     <Content Include="Recursos\audio\ViajeIn.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Recursos\audio\ViajesEs.mp3">
+    <Content Include="Recursos\audio\ViajeEs.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\Img\abb10_2.jpg">
