@@ -16,14 +16,58 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Recursos\audio\01en.mp3" />
+    <None Remove="Recursos\audio\01es.mp3" />
+    <None Remove="Recursos\Img\abb10_2.jpg" />
     <None Remove="Recursos\Img\abb1_2.jpg" />
+    <None Remove="Recursos\Img\abb2_2.jpg" />
+    <None Remove="Recursos\Img\abb3_2.jpg" />
+    <None Remove="Recursos\Img\abb4_2.jpg" />
+    <None Remove="Recursos\Img\abb5_2.jpg" />
+    <None Remove="Recursos\Img\abb6_2.jpg" />
+    <None Remove="Recursos\Img\abb7_2.jpg" />
+    <None Remove="Recursos\Img\abb8_2.jpg" />
+    <None Remove="Recursos\Img\abb9_2.jpg" />
     <None Remove="Recursos\Img\Hintergrund.jpg" />
     <None Remove="Recursos\Img\idioma.png" />
     <None Remove="Recursos\Img\saver.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Recursos\audio\01en.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\01es.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb10_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Recursos\Img\abb1_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb2_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb3_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb4_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb5_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb6_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb7_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb8_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\Img\abb9_2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\Img\Hintergrund.jpg">

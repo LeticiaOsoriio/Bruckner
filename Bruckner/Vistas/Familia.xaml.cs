@@ -71,10 +71,10 @@ namespace Bruckner.Vistas
             switch (cultureCode)
             {
                 case "es-ES":
-                    dict.Source = new Uri("..\\Recursos\\idioma\\BiografiaEs.xaml", UriKind.Relative);
+                    dict.Source = new Uri("..\\Recursos\\idioma\\FamiliaEs.xaml", UriKind.Relative);
                     break;
                 default:
-                    dict.Source = new Uri("..\\Recursos\\idioma\\BiografiaIn.xaml", UriKind.Relative);
+                    dict.Source = new Uri("..\\Recursos\\idioma\\FamiliaIn.xaml", UriKind.Relative);
                     break;
             }
             Resources.MergedDictionaries.Clear();

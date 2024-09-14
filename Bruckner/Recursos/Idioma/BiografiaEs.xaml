@@ -9,4 +9,21 @@ xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <sys:String x:Key="Text3">Anton Bruckner nació el 4 de septiembre de 1824 como hijo mayor del profesor de escuela Anton Bruckner (1791-1837) y su esposa Theresia (1801-1860), nacida Helm, en el edificio de profesores (hoy, el Museo de Anton Bruckner de Ansfelden) en Ansfelden, Alta Austria.</sys:String>
     <sys:String x:Key="Text4">Siguiendo la costumbre, el día de su nacimiento fue bautizado con el nombre de Joseph Anton y su madrina fue Rosalia Mayrhofer, su tía abuela por parte de madre, que trabajaba como ama de llaves en la parroquia de la cercana Wolfern.</sys:String>
+    <sys:String x:Key="Text5">El padre de Anton le dio su primera clase de música. Con cuatro años ya tocaba el violín y, más tarde, aprendería también a tocar el órgano y sustituiría de vez en cuando a su padre como organista en la iglesia.</sys:String>
+    <sys:String x:Key="Text6">Durante un breve espacio de tiempo, Bruckner recibió clases de música del profesor auxiliar Franz Perfahl (1817-1883), que sustituyó a su padre en la escuela durante una larga enfermedad.</sys:String>
+    <sys:String x:Key="Text7">El lugar de nacimiento de Bruckner, Ansfelden, se encuentra a pocos kilómetros de Linz, en la región de Traunviertel de Alta Austria.
+Desde el año 1682, el lugar es una parroquia catastral del monasterio de St. Florian. Los canónigos de St. Florian trabajaban como clérigos parroquiales y al monasterio se le atribuía el cuidado y vigilancia de la escuela, así como la contratación de profesores.</sys:String>
+    <sys:String x:Key="Text8">Hacia el año 1830, Ansfelden contaba con unos 950 habitantes, estaba formada por 127 casas y la mayoría de los habitantes vivían de la agricultura.
+En 1828, las listas de alumnos de la escuela del pueblo incluían a 240 escolares semanales y a 140 de los domingos.
+    Bruckner pasó el periodo comprendido entre 1835 y 1837 en casa de su tío Joseph Weiß (1772-1850) en Hörsching, donde recibió clases de música de su primo Johann Baptist Weiß (1753-1800).</sys:String>
+    <sys:String x:Key="Text9">Además de a tocar el órgano, Weiß le enseñó también las bases de la teoría musical.</sys:String>
+    <sys:String x:Key="Text10">Johann Baptist Weiß era asistente en la escuela de Hörsching y ganó reputación como organista y compositor. Como después haría también Bruckner, se graduó en la Lehrerbildungsanstalt de Linz (institución de enseñanza para docentes) y su posterior suicidio afectó mucho a Bruckner.</sys:String>
+    <sys:String x:Key="Text11">Este escribió en Hörsching su primera composición de la que se tiene prueba, el Pange lingua en do mayor (WAB 31).</sys:String>
+    <sys:String x:Key="Text12">En 1837, el padre de Bruckner enfermó y Anton volvió a Ansfelden con su familia.</sys:String>
+ 
 </ResourceDictionary>
+
+
+
+
+

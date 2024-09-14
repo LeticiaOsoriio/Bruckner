@@ -3,22 +3,36 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
 
-    <sys:String x:Key="Title">chorister at St. Florianño del coro en st. florian.</sys:String>
+    <sys:String x:Key="Title">choir boy in St. Florian.</sys:String>
 
-    <sys:String x:Key="Text1">„All the splendour initially had a subconscious effect on the boy's feelings, but it took an entire lifetime for their rebirth from his soul to be turned into timeless works of art“
-.</sys:String>
+    <sys:String x:Key="Text1">At first, all the splendor influenced the boy’s feelings only unconsciously; it would take a lifetime before his rebirth grew from his soul in the form of imperishable art.“</sys:String>
 
-    <sys:String x:Key="Text2">[Max Auer. Anton Bruckner. Sein Leben und Werk.]</sys:String>
+    <sys:String x:Key="Text2">[Max Auer. Anton Bruckner. His Life and Work.]</sys:String>
 
-    <sys:String x:Key="Text3">The Order of Augustinian Canons at St. Florian Monastery is one of Austria's most important monasteries. Science and art have always played a significant role, and the monastery houses valuable collections and an important library.
+    <sys:String x:Key="Text3">The Augustinian Canons Monastery of St. Florian is one of the most important monasteries in Austria. Here, science and art have played a key role since time immemorial, and the monastery houses valuable collections and a remarkable library.</sys:String>
 
-    </sys:String>
+    <sys:String x:Key="Text4">Under the abbot David Fuhrmann, between 1667 and 1689, the baroquization of the monastery began, which expanded to become a unique artistic jewel. Under the abbot Johann Baptist Födermayr, between 1716 and 1732, the monastery acquired its own theater.</sys:String>
 
-    <sys:String x:Key="Text4">Under Abbot David Fuhrmann (reg. 1667-1689), the Baroque influence began to take hold at the monastery, which was subsequently developed to create a unique artistic gem. Under Abbot Johann Baptist Födermayr (reg. 1716-1732), the monastery even had its own theatre.
+    <sys:String x:Key="Text5">With the organ built by Franz Xaver Krisman (1726-95), the monastery church had the largest organ in the entire Danube monarchy during Bruckner’s time.</sys:String>
 
-    </sys:String>
+    <sys:String x:Key="Text6">Anton’s father gave him his first music lesson. By the age of four, he was already playing the violin, and later, he also learned to play the organ and occasionally substituted for his father as the organist in the church.
+For a short period, Bruckner received music lessons from assistant teacher Franz Perfahl (1817-1883), who replaced his father at the school during a prolonged illness.</sys:String>
 
-    <sys:String x:Key="Text5">In Bruckner's time, the monastery church housed the largest organ of the entire Danube Monarchy, namely that built by Franz Xaver Krisman (1726-95).
-    </sys:String>
+    <sys:String x:Key="Text7">Bruckner’s birthplace, Ansfelden, is located a few kilometers from Linz, in the Traunviertel region of Upper Austria.</sys:String>
+
+    <sys:String x:Key="Text8">Since 1682, the place has been a cadastral parish of the St. Florian Monastery. The canons of St. Florian worked as parish clergy, and the monastery was responsible for the care and supervision of the school, as well as the hiring of teachers.</sys:String>
+
+    <sys:String x:Key="Text9">Around 1830, Ansfelden had about 950 inhabitants, was made up of 127 houses, and most of the inhabitants lived off agriculture.
+In 1828, the lists of students at the village school included 240 weekly schoolchildren and 140 Sunday schoolchildren.</sys:String>
+
+    <sys:String x:Key="Text10">Bruckner spent the period between 1835 and 1837 at the house of his uncle Joseph Weiß (1772-1850) in Hörsching, where he received music lessons from his cousin Johann Baptist Weiß (1753-1800).</sys:String>
+
+    <sys:String x:Key="Text11">In addition to teaching him how to play the organ, Weiß also taught him the basics of music theory.</sys:String>
+
+    <sys:String x:Key="Text12">Johann Baptist Weiß was an assistant at the school in Hörsching and gained a reputation as an organist and composer. Like Bruckner, he graduated from the Lehrerbildungsanstalt in Linz (a teacher training institution), and his later suicide greatly affected Bruckner.
+He wrote his first documented composition, the Pange lingua in C major (WAB 31), in Hörsching.</sys:String>
+
+    <sys:String x:Key="Text13">In 1837, Bruckner’s father fell ill, and Anton returned to Ansfelden with his family.</sys:String>
+
 
 </ResourceDictionary> 

@@ -28,4 +28,16 @@
     <sys:String x:Key="Text7">Sus padres, Johann Ferdinand (1769-1816) y Anna Maria (1773-1811), eran latifundistas y gestionaban un mesón.
    
     </sys:String>
+    <sys:String x:Key="Text8">Los padres de Anton Bruckner se casaron en 1823 en Ansfelden. Tuvieron once hijos, de los cuales solo sobrevivieron cinco: Anton, Rosalia (1829-1898), Josefa (1830-1874), Ignaz (1833-1913) y Maria Anna (1836-1870).</sys:String>
+    <sys:String x:Key="Text9">Esta última se encargaría del hogar de su hermano Anton desde 1866, primero en Linz y después también en Viena. La relación de Bruckner con su familia era muy íntima.</sys:String>
+    <sys:String x:Key="Text10">En las regiones rurales de la monarquía, los profesores de escuela eran los representantes principales de la cultura. Dado que la enseñanza estaba en manos de la iglesia católica, los profesores también tenían que ocuparse de la música eclesiástica, una circunstancia que se tenía en cuenta a la hora de elegir y formar a los candidatos a la docencia.</sys:String>
+    <sys:String x:Key="Text11">El 7 de junio de 1837, el padre de Bruckner falleció y la familia tuvo que abandonar el domicilio en el edificio de profesores, ya que estaba vinculado a su puesto.</sys:String>
+    <sys:String x:Key="Text12">Su madre, junto con sus cuatro hijos más jóvenes y su cuñada Anna Maria (1789-1841), se trasladó a Ebelsberg para ofrecer sus servicios como criada.
+Anton pasó un breve periodo de tiempo con su tío Joseph Weiß en Hörsching, pero después su madre consiguió alojarlo en el monasterio de St. Florian como niño del coro.</sys:String>
+
 </ResourceDictionary>
+
+
+
+
+
