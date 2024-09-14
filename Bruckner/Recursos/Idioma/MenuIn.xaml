@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Tit1">Biography</sys:String>
+    <sys:String x:Key="Tit2">Paternal Home and Childhood</sys:String>
+    <sys:String x:Key="Tit3">The Family</sys:String>
+    <sys:String x:Key="Tit4">Choirboy in St. Florian</sys:String>
+    <sys:String x:Key="Tit5">Student in Linz</sys:String>
+    <sys:String x:Key="Tit7">Bruckner as Teacher</sys:String>
+    <sys:String x:Key="Tit8">Organist in Linz</sys:String>
+    <sys:String x:Key="Tit9">Years of Crisis</sys:String>
+    <sys:String x:Key="Tit10">Travels</sys:String>
+    <sys:String x:Key="Tit11">Bruckner in Vienna</sys:String>
+    <sys:String x:Key="Tit12">Death and Last Will</sys:String>
+    <sys:String x:Key="Tit13">The Composer</sys:String>
+    <sys:String x:Key="Tit14">The Composer's Praise</sys:String>
+    <sys:String x:Key="Tit15">Composition Work</sys:String>
+    <sys:String x:Key="Tit16">Bruckner's Image Over Time</sys:String>
+    <sys:String x:Key="Tit17">Bruckner Research</sys:String>
+    <sys:String x:Key="Tit18">Works</sys:String>
+    <sys:String x:Key="Tit19">Literature</sys:String>
+    <sys:String x:Key="Tit20">Image Sources</sys:String>
+
+</ResourceDictionary>

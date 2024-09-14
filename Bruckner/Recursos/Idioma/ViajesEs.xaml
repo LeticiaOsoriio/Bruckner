@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Titulo">viajes</sys:String>
+    <sys:String x:Key="Texto1">„Totalmente agotado. Diez conciertos, seis veces en el Albert Hall, cuatro en el Crystal Palace. Grandes aplausos sin fin. Se pidieron bises. De hecho, a menudo tuve que tocar dos improvisaciones después.“
+
+    </sys:String>
+
+    <sys:String x:Key="Texto2">[Bruckner a Moritz von Mayfeld, el 23 de agosto de 1871.]
+        
+    </sys:String>
+
+    <sys:String x:Key="Texto3">Bruckner había granjeado una gran reputación como organista y era famoso, sobre todo, por su arte de improvisación.
+
+    </sys:String>
+    <sys:String x:Key="Texto4">Orgulloso, el 20 de junio de 1868 escribió a Hans von Bülow (1830-1894) para decirle que en Viena lo trataban como al «mejor organista de Austria».
+
+    </sys:String>
+    <sys:String x:Key="Texto5">Como gran conocedor del instrumento, con frecuencia le llegaban solicitudes de inspección de órganos, es decir, la comprobación exhaustiva y la aprobación de instrumentos nuevos.
+
+    </sys:String>
+    <sys:String x:Key="Texto6">Las invitaciones lo llevaron hasta Praga, entre otros.
+        
+    </sys:String>
+</ResourceDictionary>

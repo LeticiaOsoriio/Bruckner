@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Titulo">Bruckner in Vienna</sys:String>
+    <sys:String x:Key="Texto1">In the 19th century, Vienna was considered to be an important centre of music culture and of art in general. The opportunities in the imperial city attracted artists from all areas of the Empire, hoping to find inspiration, development and careers in its fertile art world.
+
+    </sys:String>
+
+    <sys:String x:Key="Texto2">The city's musical identity was shaped by the spirit of Mozart, Haydn, Beethoven and Schubert and premieres of some of the most significant works in musical history. In Bruckner's time, several important musical institutions were established in Vienna:
+
+    </sys:String>
+
+    <sys:String x:Key="Texto3">the Gesellschaft der Musikfreunde founded in 1812, the Vienna Philharmonic Orchestra founded in 1842, the Wiener Männergesangverein (founded in 1843), the Sängervereinigung der Gesellschaft der Musikfreunde (founded in 1858), the Singakademie (founded in 1858), the Akademischen Gesangverein (founded in 1858) and the Schubertbund (founded in 1863).
+    </sys:String>
+   

@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Titulo">travel</sys:String>
+    <sys:String x:Key="Texto1">„Just finished. Performed 10 concerts; 6 in the Albert Hall, 4 at Crystal Palace. Deafening, never-ending applause. Encores requested. Meaning I often had to play 2 improvised pieces.“
+
+    </sys:String>
+
+    <sys:String x:Key="Texto2">[Bruckner to Moritz von Mayfeld on 23 August 1871]
+        
+    </sys:String>
+
+    <sys:String x:Key="Texto3">By now, Bruckner had acquired a superb reputation as an organist, primarily famous for his improvisation skills.
+
+    </sys:String>
+    <sys:String x:Key="Texto4">On 20 June 1868, he proudly wrote to Hans von Bülow (1830-1894), that in Vienna, he was regarded as "Austria's best organist".
+
+    </sys:String>
+    <sys:String x:Key="Texto5">As a unique connoisseur of the instrument, he regularly received requests to finally approve organs, i.e. to conduct a detailed assessment and inspection of newly-built instruments.
+
+    </sys:String>
+    <sys:String x:Key="Texto6">These invitations took him to Prague, among other places.
+        
+    </sys:String>
+</ResourceDictionary

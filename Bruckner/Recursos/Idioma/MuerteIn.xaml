@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Titulo">death and last wishes</sys:String>
+    <sys:String x:Key="Texto1">„You must understand, Gentlemen, that here in St. Florian, where I have always been so happy since my youth, […] is where I want to be laid to rest, below the large organ which I have played so much during my life, and which was always my friend“
+    </sys:String>
+
+    <sys:String x:Key="Texto2">[August Göllerich/Max Auer, Anton Bruckner.]</sys:String>
+
+    <sys:String x:Key="Texto3">Bruckner suffered from a heart problem, complaining of dropsy and breathlessness as early as 1892. That year, he visited the Wagner Festival in Bayreuth for the last time, and on 28 October 1892, was relieved of his position at the Hofmusikkapelle at his own request.
+
+    </sys:String>
+    <sys:String x:Key="Texto4">After his health deteriorated further during 1893, he experienced a surprising improvement towards the end of the year. In December 1894, he suffered a major relapse and the doctors had already given up on him, when his health once again took a turn for the better.
+
+    </sys:String>
+
+    <sys:String x:Key="Texto5">He continued to work on his Ninth Symphony, which he hoped to complete.
+
+    </sys:String>
+    <sys:String x:Key="Texto6">But Bruckner's wish remained unfulfilled as he died at 3:30 pm on 11 October 1896 in his apartment in Kustodentrakt at Schloss Belvedere.
+    </sys:String>
+</ResourceDictionary>

@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Titulo">muerte y última voluntad</sys:String>
+    <sys:String x:Key="Texto1">„Me entienden, señores, aquí en St. Florian, donde desde mi juventud me siento tan a gusto, [...] allá, pónganme allá, bajo el gran órgano, el cual en mi vida tanto he tocado, que siempre me dio tanta alegría“
+    </sys:String>
+
+    <sys:String x:Key="Texto2">[[August Göllerich/Max Auer, Anton Bruckner.]</sys:String>
+
+    <sys:String x:Key="Texto3">Bruckner sufría de un problema de corazón y ya en 1892 lo aquejaban la hidropesía y la disnea. Este año acudió por última vez a las representaciones de Wagner en Bayreuth y el 28 de octubre de 1892 fue eximido de sus servicios en la capilla de la Corte a petición propia.
+
+    </sys:String>
+    <sys:String x:Key="Texto4">Después de que su estado de salud empeorara crecientemente a lo largo de 1893, a finales de año mejoró de forma sorprendente. En diciembre de 1894 sufrió una enorme recaída y, cuando los médicos ya lo habían dado por perdido, su estado de salud volvió a mejorar.
+
+    </sys:String>
+
+    <sys:String x:Key="Texto5">Siguió trabajando en su sinfonía n.º 9, que esperaba poder terminar.
+
+    </sys:String>
+    <sys:String x:Key="Texto6">Este deseo no se cumplió, ya que Bruckner falleció el 11 de octubre de 1896 a las 15:30 en su domicilio del edificio anexo del custodio del palacio Belvedere.Siguió trabajando en su sinfonía n.º 9, que esperaba poder terminar.
+
+    </sys:String>
+</ResourceDictionary>
+    

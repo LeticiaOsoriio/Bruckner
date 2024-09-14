@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Titulo">organista en linz</sys:String>
+    <sys:String x:Key="Texto1">A mediados del siglo XIX, la pequeña ciudad de Linz contaba con unos 35 000 habitantes.
+
+    </sys:String>
+
+    <sys:String x:Key="Texto2">Entre las instituciones musicales más importantes se encontraban el teatro estatal de Linz, la Sociedad de Amigos de la Música (fundada en 1821), el coro de la sociedad de canto Liedertafel Frohsinn (1845) y la Asociación de Cantantes Masculinos (1857). Asimismo, los conciertos regulares de las capillas de música militar estacionadas en Linz eran muy populares.
+
+    </sys:String>
+
+    <sys:String x:Key="Texto3">Bruckner mantenía una relación estrecha con la sociedad de canto Liedertafel Frohsinn, primero como cantante y, más tarde, como maestro del coro y archivero. La sociedad de canto celebraba conciertos de beneficencia y diferentes veladas. Además, a veces ofrecía acompañamiento musical para las misas.
+
+    </sys:String>
+    <sys:String x:Key="Texto4">Un acontecimiento importante era la participación en festivales de canto, para los que el coro viajaba hasta Alemania.
+   
+    </sys:String>
+
+</ResourceDictionary>

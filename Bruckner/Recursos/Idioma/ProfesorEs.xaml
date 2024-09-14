@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Titulo">bruckner como profesor</sys:String>
+    <sys:String x:Key="Texto1">„El tiempo señala a un oficio que poco vale, pero que todos aprovechan, ¡qué pena! A algunos aquí ni se los respeta ni se los ayuda, ¿no sabéis qué oficio es? es el honrado oficio de profesor“
+
+    </sys:String>
+
+    <sys:String x:Key="Texto2">[Anton Bruckner. Der Lehrerstand (WAB 77) (El oficio de profesor). Coro masculino a cuatro voces (alrededor de 1847)]
+    </sys:String>
+
+    <sys:String x:Key="Texto3">Después de acudir al Präparandie en los años 1840-41, Bruckner aceptó un puesto como asistente en Windhaag bei Freistadt en 1841.
+
+    </sys:String>
+    <sys:String x:Key="Texto4">En el distante pueblo de Mühlviertel llevaba una existencia extremadamente modesta. Además de las clases, tenía que trabajar en el campo y, en su escaso tiempo libre, aumentaba sus ingresos como músico de entretenimiento y baile en los mesones de los alrededores.
+
+    </sys:String>
+    <sys:String x:Key="Texto5">Aquí nació la misa de Bruckner en do mayor para contralto, 2 trompas y órgano (WAB 25).
+        
+    </sys:String>
+
+</ResourceDictionary>
