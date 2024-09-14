@@ -20,7 +20,23 @@
     <None Remove="Recursos\audio\01es.mp3" />
     <None Remove="Recursos\audio\2en.mp3" />
     <None Remove="Recursos\audio\2es.mp3" />
+    <None Remove="Recursos\audio\CompositorEs.mp3" />
+    <None Remove="Recursos\audio\CompositorIn.mp3" />
+    <None Remove="Recursos\audio\CoroEs.mp3" />
+    <None Remove="Recursos\audio\CoroIn.mp3" />
+    <None Remove="Recursos\audio\Crisis.mp3" />
+    <None Remove="Recursos\audio\CrisisIn.mp3" />
+    <None Remove="Recursos\audio\Imagen.mp3" />
+    <None Remove="Recursos\audio\ImagenIn.mp3" />
     <None Remove="Recursos\audio\menuIn.mp3" />
+    <None Remove="Recursos\audio\MuerteEs.mp3" />
+    <None Remove="Recursos\audio\MuerteIn.mp3" />
+    <None Remove="Recursos\audio\ProfesorEs.mp3" />
+    <None Remove="Recursos\audio\ProfesorIn.mp3" />
+    <None Remove="Recursos\audio\TrabajoEs.mp3" />
+    <None Remove="Recursos\audio\TrabajoIn.mp3" />
+    <None Remove="Recursos\audio\ViajeIn.mp3" />
+    <None Remove="Recursos\audio\ViajesEs.mp3" />
     <None Remove="Recursos\Img\abb10_2.jpg" />
     <None Remove="Recursos\Img\abb11_2.jpg" />
     <None Remove="Recursos\Img\abb1_2.jpg" />
@@ -50,10 +66,58 @@
     <Content Include="Recursos\audio\2es.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Recursos\audio\CompositorEs.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\CompositorIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\CoroEs.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\CoroIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\Crisis.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\CrisisIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\Imagen.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\ImagenIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Recursos\audio\menu.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\audio\menuIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\MuerteEs.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\MuerteIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\ProfesorEs.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\ProfesorIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\TrabajoEs.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\TrabajoIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\ViajeIn.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\ViajesEs.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\Img\abb10_2.jpg">
