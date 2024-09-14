@@ -120,7 +120,7 @@ namespace Bruckner
             {
                 if (currentPage == null)
                 {
-                    goNavi("BonnPage");
+                    goNavi("Biografia1");
                 }
                 else
                 {
@@ -139,7 +139,7 @@ namespace Bruckner
                     {
 
                         ContentFrame.Content = null;
-                        this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/saver.jpg")));
+                        this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/Img/saver.jpg")));
                         CloseAllExpanders();
                         PlayMenuAudio();
                     }
@@ -333,40 +333,24 @@ namespace Bruckner
         {
             if (Expander1.IsExpanded)
             {
-                goNavi("BonnPage");
+                goNavi("Biografia1");
             }
         }
         private void Expander_Expanded2(object sender, RoutedEventArgs e)
         {
             if (Expander2.IsExpanded)
             {
-                goNavi("Independiente");
+                goNavi("Compositor");
             }
         }
-        private void Expander_Expanded3(object sender, RoutedEventArgs e)
-        {
-            if (Expander3.IsExpanded)
-            {
-                goNavi("Sobrino");
-            }
-        }
-        private void Expander_Expanded4(object sender, RoutedEventArgs e)
-        {
-            if (Expander4.IsExpanded)
-            {
-                goNavi("Cuaderno");
-            }
-        }
+
         private void CloseAllExpanders()
         {
             // Cerrar cada Expander estableciendo IsExpanded en false
             Expander1.IsExpanded = false;
             Expander2.IsExpanded = false;
-            Expander3.IsExpanded = false;
-            Expander4.IsExpanded = false;
-        }
 
-        // Método que se ejecuta cuando el temporizador alcanza los 5 minutos de inactividad
+        }
 
     }
 

@@ -52,7 +52,6 @@ namespace Bruckner.Vistas
         {
             InitializeComponent();
             LoadLanguage(SessionManager.CurrentLanguage);
-            PlayMenuAudio();
         }
 
 
@@ -82,24 +81,6 @@ namespace Bruckner.Vistas
             Resources.MergedDictionaries.Add(dict);
 
         }
-        private void PlayMenuAudio()
-        {
-            MediaPlayer mediaPlayer = new MediaPlayer();
-            string audio = "2es.mp3";
-            if (SessionManager.CurrentLanguage != "es-ES")
-            {
-                audio = "2en.mp3";
-            }
-            // Ruta del recurso menu.mp3 en el proyecto
-            string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
-
-            // Ruta completa al archivo menu.mp3 (asumiendo que está en Recursos/audio/Spanisch relativo al ejecutable)
-            string audioFilePath = Path.Combine(exeDirectory, @"Recursos\audio\" + audio);
-
-            // Cargar y reproducir el archivo de audio
-            mediaPlayer.Open(new Uri(audioFilePath, UriKind.Absolute));
-            mediaPlayer.Play();
-        }
     }
 }

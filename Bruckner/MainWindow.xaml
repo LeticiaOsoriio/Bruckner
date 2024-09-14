@@ -38,49 +38,36 @@
             <!-- Expander para la sección de Bonn -->
             <Expander x:Name="Expander1" Header="{DynamicResource Tit1}" Background="Transparent" Expanded="Expander_Expanded1">
                 <StackPanel>
-                    <Button Content="{DynamicResource Tit2}" Tag="BonnPage" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit3}" Tag="Clases" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit4}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit5}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit6}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit7}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit8}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit9}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit10}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit2}" Tag="Biografia1" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit3}" Tag="Familia" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit4}" Tag="Coro" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit5}" Tag="Alumno" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit7}" Tag="Profesor" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit8}" Tag="Organista" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit9}" Tag="Crisis" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit10}" Tag="Viajes" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit11}" Tag="Viena" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit12}" Tag="Muerte" Click="Navigate_Click" Background="Transparent" />
                 </StackPanel>
             </Expander>
 
-            <Expander x:Name="Expander2" Header="{DynamicResource Tit5}" Background="Transparent" Expanded="Expander_Expanded2">
+            <Expander x:Name="Expander2" Header="{DynamicResource Tit13}" Background="Transparent" Expanded="Expander_Expanded2">
                 <StackPanel>
-                    <Button Content="{DynamicResource Tit6}" Tag="Independiente" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit7}" Tag="Testamento" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit8}" Tag="Heroica" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit9}" Tag="Apogeo" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit10}" Tag="Ultimos" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit14}" Tag="Compositor" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit15}" Tag="Trabajo" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit16}" Tag="Imagen" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit17}" Tag="forschung" Click="Navigate_Click" Background="Transparent" />
+
                 </StackPanel>
             </Expander>
 
-            <Expander x:Name="Expander3" Header="{DynamicResource Tit11}" Background="Transparent" Expanded="Expander_Expanded3">
-                <StackPanel>
-                    <Button Content="{DynamicResource Tit12}" Tag="Sobrino" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit13}" Tag="amigos" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit14}" Tag="BethoveenyGoet" Click="Navigate_Click" Background="Transparent" />
-                </StackPanel>
-            </Expander>
-
-            <Expander x:Name="Expander4" Header="{DynamicResource Tit15}" Background="Transparent" Expanded="Expander_Expanded4">
-                <StackPanel>
-                    <Button Content="{DynamicResource Tit16}" Tag="Cuaderno" Click="Navigate_Click" Background="Transparent" />
-                    <Button Content="{DynamicResource Tit17}" Tag="Casa" Click="Navigate_Click" Background="Transparent" />
-                </StackPanel>
-            </Expander>
-
+         
 
             <!-- ListBox para otras opciones del menú -->
             <ListBox BorderBrush="Transparent" x:Name="MenuListBox" Background="Transparent"  SelectionChanged="MenuListBox_SelectionChanged" Margin="10">
                 <ListBoxItem Content="{DynamicResource Tit18}" Tag="Obras" />
                 <ListBoxItem Content="{DynamicResource Tit19}" Tag="Literatura" />
-                <ListBoxItem Content="{DynamicResource Tit20}" Tag="FuenteImagenes" />
+                <ListBoxItem Content="{DynamicResource Tit20}" Tag="Galeria" />
             </ListBox>
         </StackPanel>
 
