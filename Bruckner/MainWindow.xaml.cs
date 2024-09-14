@@ -133,7 +133,7 @@ namespace Bruckner
             string audio = "menu.mp3";
             if (SessionManager.CurrentLanguage != "es-ES")
             {
-                audio = "menu.mp3";
+                audio = "menuIn.mp3";
             }
             // Ruta del recurso menu.mp3 en el proyecto
             string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
