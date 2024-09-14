@@ -14,6 +14,25 @@ namespace Bruckner
     using System.Threading.Tasks;
     using System.Windows.Media;
 
+    //            "Alumno",
+    //            "Biografia1",
+    //            "Compositor",
+    //            "Coro",
+    //            "Crisis",
+    //            "Familia",
+    //            "forschung",
+    //            "Galeria",
+    //            "Imagen",
+    //            "Literatura",
+    //            "Muerte",
+    //            "Obras",
+    //            "Organista",
+    //            "Profesor",
+    //            "Trabajo",
+    //            "Viajes",
+    //            "Viena"
+
+
     namespace Beethoven
     {
         public class Musica
@@ -27,40 +46,39 @@ namespace Bruckner
             {
                 switch (tag)
                 {
-                    case "BonnPage":
-                        PlayMenuAudio("nines");
+                    case "Biografia1":
+                        PlayMenuAudio("01");
                         break;
-                    case "Clases":
-                        PlayMenuAudio("viertesjahr");
+                    case "Familia":
+                        PlayMenuAudio("2");
                         break;
-                    case "Musico":
-                        PlayMenuAudio("freyheit");
+                    case "Coro":
+                        PlayMenuAudio("Coro");
                         break;
-                    case "Independiente":
-                        PlayMenuAudio("vonwem");
+                    case "Profesor":
+                        PlayMenuAudio("Profesor");
                         break;
-                    case "Testamento":
-                        PlayMenuAudio("schicksal");
+                    case "Crisis":
+                        PlayMenuAudio("Crisis");
                         break;
-                    case "Heroica":
-                        PlayMenuAudio("schweine");
+                    case "Viajes":
+                        PlayMenuAudio("Viaje");
                         break;
-                    case "Apogeo":
-                        PlayMenuAudio("freiheit");
+                    case "Muerte":
+                        PlayMenuAudio("Muerte");
                         break;
-                    case "Ultimos":
-                        PlayMenuAudio("letztejahre");
+                    case "Compositor":
+                        PlayMenuAudio("Compositor");
                         break;
-                    case "Sobrino":
-                        PlayMenuAudio("leiblich");
+                    case "Trabajo":
+                        PlayMenuAudio("Trabajo");
                         break;
-                    case "BethoveenyGoet":
-                        PlayMenuAudio("zusammengerafft");
+                    case "Imagen":
+                        PlayMenuAudio("Imagen");
                         break;
                     default:
                         mediaPlayer.Stop();
                         break;
-
                 }
             }
 
@@ -70,11 +88,11 @@ namespace Bruckner
 
                 if (SessionManager.CurrentLanguage != "es-ES")
                 {
-                    audio = $"{audio}_en.mp3";
+                    audio = $"{audio}En.mp3";
                 }
                 else
                 {
-                    audio = $"{audio}.mp3";
+                    audio = $"{audio}Es.mp3";
                 }
                 // Ruta del recurso menu.mp3 en el proyecto
                 string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;

@@ -24,7 +24,7 @@
     <None Remove="Recursos\audio\CompositorIn.mp3" />
     <None Remove="Recursos\audio\CoroEs.mp3" />
     <None Remove="Recursos\audio\CoroIn.mp3" />
-    <None Remove="Recursos\audio\Crisis.mp3" />
+    <None Remove="Recursos\audio\CrisisEs.mp3" />
     <None Remove="Recursos\audio\CrisisIn.mp3" />
     <None Remove="Recursos\audio\Imagen.mp3" />
     <None Remove="Recursos\audio\ImagenIn.mp3" />
@@ -54,10 +54,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Recursos\audio\01en.mp3">
+    <Content Include="Recursos\audio\01En.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Recursos\audio\01es.mp3">
+    <Content Include="Recursos\audio\01Es.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\audio\2en.mp3">
@@ -78,7 +78,7 @@
     <Content Include="Recursos\audio\CoroIn.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Recursos\audio\Crisis.mp3">
+    <Content Include="Recursos\audio\CrisisEs.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\audio\CrisisIn.mp3">
