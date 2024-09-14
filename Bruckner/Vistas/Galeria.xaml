@@ -1,0 +1,38 @@
+﻿<Page x:Class="Bruckner.Vistas.Galeria"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Bruckner.Vistas"
+      mc:Ignorable="d" 
+      Title="Galeria">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Imagenes en la cuadrícula -->
+
+        <Image Source="/Recursos/Img/abb1_2.jpg" Grid.Row="0" Grid.Column="0" Width="200" Height="250"  Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb2_2.jpg" Grid.Row="0" Grid.Column="1" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb3_2.jpg" Grid.Row="0" Grid.Column="2" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb4_2.jpg" Grid.Row="1" Grid.Column="0" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb5_2.jpg" Grid.Row="1" Grid.Column="1" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb6_2.jpg" Grid.Row="1" Grid.Column="2" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb7_2.jpg" Grid.Row="2" Grid.Column="0" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>   
+        <Image Source="/Recursos/Img/abb8_2.jpg" Grid.Row="2" Grid.Column="1" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb9_2.jpg" Grid.Row="2" Grid.Column="2" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb10_2.jpg" Grid.Row="0" Grid.Column="3" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Source="/Recursos/Img/abb11_2.jpg" Grid.Row="1" Grid.Column="3" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+
+    </Grid>
+</Page>

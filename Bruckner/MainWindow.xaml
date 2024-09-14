@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bruckner"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" >
     <Window.Background>
         <ImageBrush ImageSource="Recursos/Img/saver.jpg" ></ImageBrush>
     </Window.Background>
@@ -39,18 +39,18 @@
 
             <TreeView Background="Transparent">
                 <TreeViewItem Header="{DynamicResource Tit13}">
-                    <TreeViewItem Header="{DynamicResource Tit14}" x:Name="Tit14"/>
-                    <TreeViewItem Header="{DynamicResource Tit15}" x:Name="Tit15"/>
-                    <TreeViewItem Header="{DynamicResource Tit16}" x:Name="Tit16"/>
-                    <TreeViewItem Header="{DynamicResource Tit17}" x:Name="Tit17"/>
+                    <TreeViewItem Header="{DynamicResource Tit14}" Tag="Compositor"  x:Name="Tit14"/>
+                    <TreeViewItem Header="{DynamicResource Tit15}" Tag="Trabajo"  x:Name="Tit15"/>
+                    <TreeViewItem Header="{DynamicResource Tit16}" Tag="Imagen"  x:Name="Tit16"/>
+                    <TreeViewItem Header="{DynamicResource Tit17}" Tag="forschung" x:Name="Tit17"/>
                 </TreeViewItem>
             </TreeView>
             <!-- Menú lateral -->
             <ListBox  x:Name="MenuListBox" Background="Transparent" SelectionChanged="MenuListBox_SelectionChanged" Margin="10">
 
-                <ListBoxItem Content="{DynamicResource Tit18}" Tag="Viajes" />
-                <ListBoxItem Content="{DynamicResource Tit19}" Tag="Viajes" />
-                <ListBoxItem Content="{DynamicResource Tit20}" Tag="Viajes" />
+                <ListBoxItem Content="{DynamicResource Tit18}" Tag="Obras"  />
+                <ListBoxItem Content="{DynamicResource Tit19}" Tag="Literatura" />
+                <ListBoxItem Content="{DynamicResource Tit20}" Tag="Galeria" />
 
             </ListBox>
         </StackPanel>
