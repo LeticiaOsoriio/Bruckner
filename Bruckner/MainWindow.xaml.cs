@@ -31,14 +31,14 @@ namespace Bruckner
             this.ResizeMode = ResizeMode.NoResize;
             // this.Topmost = true;
 
-            //mediaPlayer = new MediaPlayer();
+            mediaPlayer = new MediaPlayer();
 
             // Reproducir el archivo menu.mp3 al iniciar la aplicación
             
 
             SessionManager.CurrentLanguage = "es-ES";
             LoadLanguage(SessionManager.CurrentLanguage);
-          //  PlayMenuAudio();
+            PlayMenuAudio();
             Tit2.Selected += TreeViewItem_Selected;
             Tit3.Selected += TreeViewItem_Selected;
             Tit4.Selected += TreeViewItem_Selected;
@@ -120,7 +120,7 @@ namespace Bruckner
         }
         private void MenuListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           // mediaPlayer.Stop();
+            
                     if (MenuListBox.SelectedItem is ListBoxItem selectedItem)
             {
                 string pageName = selectedItem.Tag.ToString();
@@ -130,17 +130,17 @@ namespace Bruckner
 
         private void PlayMenuAudio()
         {
-            string audio = "01es.mp3";
+            string audio = "menu.mp3";
             if (SessionManager.CurrentLanguage != "es-ES")
             {
-                audio = "01en.mp3";
+                audio = "menu.mp3";
             }
             // Ruta del recurso menu.mp3 en el proyecto
             string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
 
             // Ruta completa al archivo menu.mp3 (asumiendo que está en Recursos/audio/Spanisch relativo al ejecutable)
-            string audioFilePath = Path.Combine(exeDirectory, @"Recursos\"+ audio);
+            string audioFilePath = Path.Combine(exeDirectory, @"Recursos\audio\" + audio);
 
             // Cargar y reproducir el archivo de audio
             mediaPlayer.Open(new Uri(audioFilePath, UriKind.Absolute));
@@ -167,7 +167,7 @@ namespace Bruckner
         }
         public void goNavi(string tag)
         {
-           // mediaPlayer.Stop();
+            mediaPlayer.Stop();
 
             this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/Img/Hintergrund.jpg")));
             string pageName = tag;
@@ -205,6 +205,7 @@ namespace Bruckner
                 SessionManager.ChangeLanguage("es-ES");
             }
             LoadLanguage(SessionManager.CurrentLanguage);
+            PlayMenuAudio();
             ContentFrame.Content = null;
             this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/Img/saver.jpg")));
         }

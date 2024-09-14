@@ -18,6 +18,8 @@
   <ItemGroup>
     <None Remove="Recursos\audio\01en.mp3" />
     <None Remove="Recursos\audio\01es.mp3" />
+    <None Remove="Recursos\audio\2en.mp3" />
+    <None Remove="Recursos\audio\2es.mp3" />
     <None Remove="Recursos\Img\abb10_2.jpg" />
     <None Remove="Recursos\Img\abb1_2.jpg" />
     <None Remove="Recursos\Img\abb2_2.jpg" />
@@ -38,6 +40,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\audio\01es.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\2en.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\2es.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\audio\menu.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\Img\abb10_2.jpg">
