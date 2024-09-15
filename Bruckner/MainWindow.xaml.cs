@@ -52,7 +52,7 @@ namespace Bruckner
             this.WindowStyle = WindowStyle.None;
             this.WindowState = WindowState.Maximized;
             this.ResizeMode = ResizeMode.NoResize;
-            // this.Topmost = true;
+             this.Topmost = true;
 
             mediaPlayer = new MediaPlayer();
             GetMusica = new Musica();
