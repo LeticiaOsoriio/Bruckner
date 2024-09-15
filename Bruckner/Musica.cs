@@ -88,7 +88,7 @@ namespace Bruckner
 
                 if (SessionManager.CurrentLanguage != "es-ES")
                 {
-                    audio = $"{audio}En.mp3";
+                    audio = $"{audio}In.mp3";
                 }
                 else
                 {

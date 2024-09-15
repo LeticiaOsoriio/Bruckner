@@ -33,7 +33,6 @@
                 <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
                                <Run Text="{DynamicResource Text1}"  Foreground="#FFCA00"  FontStyle="Italic" />
            <LineBreak/><LineBreak/>
-           <LineBreak/><LineBreak/>
            <Run Text="{DynamicResource Text2}" Foreground="#FFCA00"  FontStyle="Italic"/>
         <LineBreak/>
         <LineBreak/>

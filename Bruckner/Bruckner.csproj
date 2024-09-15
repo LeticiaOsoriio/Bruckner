@@ -16,10 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Recursos\audio\01en.mp3" />
     <None Remove="Recursos\audio\01es.mp3" />
-    <None Remove="Recursos\audio\2en.mp3" />
+    <None Remove="Recursos\audio\01In.mp3" />
     <None Remove="Recursos\audio\2es.mp3" />
+    <None Remove="Recursos\audio\2In.mp3" />
     <None Remove="Recursos\audio\CompositorEs.mp3" />
     <None Remove="Recursos\audio\CompositorIn.mp3" />
     <None Remove="Recursos\audio\CoroEs.mp3" />
@@ -54,13 +54,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Recursos\audio\01En.mp3">
+    <Content Include="Recursos\audio\01In.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\audio\01Es.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Recursos\audio\2en.mp3">
+    <Content Include="Recursos\audio\2In.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\audio\2es.mp3">

@@ -7,10 +7,10 @@
     <sys:String x:Key="Text1">„He llegado a la plena convicción de que mi sinfonía n.º 4, la romántica, requiere urgentemente un cambio a fondo.“
     </sys:String>
 
-    <sys:String x:Key="Text2">[Bruckner a Wilhelm Tappert el 12 de octubre de 1877.]La creación sinfónica de Bruckner estaba influenciada por las obras de Ludwig van Beethoven y Franz Schubert, cuyo trabajo había conocido ampliamente ya como niño del coro.
-    </sys:String>
+    <sys:String x:Key="Text2">[Bruckner a Wilhelm Tappert el 12 de octubre de 1877.]</sys:String>
 
-    <sys:String x:Key="Text3">Richard Wagner, con quien se encontró personalmente varias veces, era sumamente importante para Bruckner, ya que este sentía un ferviente respeto por él
+    <sys:String x:Key="Text3">La creación sinfónica de Bruckner estaba influenciada por las obras de Ludwig van Beethoven y Franz Schubert, cuyo trabajo había conocido ampliamente ya como niño del coro.
+        Richard Wagner, con quien se encontró personalmente varias veces, era sumamente importante para Bruckner, ya que este sentía un ferviente respeto por él
     </sys:String>
     <sys:String x:Key="Text4">„¡Eminentísimo maestro!
 Conmovido hasta lo más profundo por la majestuosidad de sus magníficas e inmortales creaciones, me atrevo hoy, en esta gran fiesta eternamente célebre, a poner mi más profundo homenaje a los pies del creador de todos estos maravillosos ideales. ¡Alabado sea Dios por habernos dado hoy a este gran maestro y por haberlo hecho componer lo que tan infinitamente felices nos hace!“

@@ -6,9 +6,9 @@
 
     <sys:String x:Key="Text1">“Yesterday (Good Friday) I conducted your grand and powerful 'Te Deum'. Both the musicians and the entire audience were deeply moved by the formidable work and the truly elevated thought, and at the end of the performance, I experienced what I consider the greatest triumph of a work: the audience remained seated and silent, not moving, and only broke into applause after the conductor and musicians had left their seats.”</sys:String>
 
-    <sys:String x:Key="Text2">[Gustav Mahler (1869-1911) from Hamburg to Bruckner, April 16, 1892.] Bruckner was achieving great success as a composer, and his works were performed both domestically and internationally. His triumphant career as a creator, distinguished by numerous honors, was unstoppable.</sys:String>
+    <sys:String x:Key="Text2">[Gustav Mahler (1869-1911) from Hamburg to Bruckner, April 16, 1892.] </sys:String>
 
-    <sys:String x:Key="Text3">Anton Bruckner's initial focus was on church music, but with his move to Vienna and a new field of artistic activity, his compositional work shifted entirely to symphonies and secular music.</sys:String>
+    <sys:String x:Key="Text3">Bruckner was achieving great success as a composer, and his works were performed both domestically and internationally. His triumphant career as a creator, distinguished by numerous honors, was unstoppable. Anton Bruckner's initial focus was on church music, but with his move to Vienna and a new field of artistic activity, his compositional work shifted entirely to symphonies and secular music.</sys:String>
 
     <sys:String x:Key="Text4">Bruckner composed a total of eleven symphonies, of which ten are complete and mostly exist in several versions. Only the last listed, Symphony No. 9 (WAB 109), remains unfinished, with only fragments of the final movement. A "study symphony" (Studiensymphonie) from 1863 and a symphony "annulled" by Bruckner (WAB 100) were excluded from the consecutive count. Bruckner did not consider these compositions worthy, so they were first performed posthumously in 1900.</sys:String>
 

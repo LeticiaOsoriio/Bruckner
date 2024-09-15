@@ -25,7 +25,7 @@
         <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">
             <TextBlock FontStyle="Italic" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
            <Run Text="{DynamicResource Text1}" />
-           <LineBreak/><LineBreak/><LineBreak/><LineBreak/>
+           <LineBreak/><LineBreak/>
            <Run Text="{DynamicResource Text2}" />
             </TextBlock>
         </StackPanel>
