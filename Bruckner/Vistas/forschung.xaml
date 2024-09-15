@@ -19,7 +19,7 @@
         </Grid.RowDefinitions>
 
         <!-- Title -->
-        <TextBlock Margin="0,40,0,0" Grid.Column="0" Grid.Row="0" FontSize="24" HorizontalAlignment="Center" Grid.ColumnSpan="3" Text="{DynamicResource Title}" />
+        <TextBlock Margin="0,40,0,0" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" VerticalAlignment="Center" FontSize="24" HorizontalAlignment="Center" Grid.ColumnSpan="3" Text="{DynamicResource Title}" />
 
         <!-- Dynamic text in StackPanel -->
         <!-- Scrollable content in Grid (instead of StackPanel) -->

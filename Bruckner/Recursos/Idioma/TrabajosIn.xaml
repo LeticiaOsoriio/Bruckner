@@ -6,9 +6,9 @@
 
     <sys:String x:Key="Text1">“I have come to the full conviction that my Symphony No. 4, the Romantic, urgently requires a complete overhaul.”</sys:String>
 
-    <sys:String x:Key="Text2">[Bruckner to Wilhelm Tappert on October 12, 1877.] Bruckner’s symphonic creation was influenced by the works of Ludwig van Beethoven and Franz Schubert, whose music he had extensively known since his childhood as a choirboy.</sys:String>
+    <sys:String x:Key="Text2">[Bruckner to Wilhelm Tappert on October 12, 1877.] </sys:String>
 
-    <sys:String x:Key="Text3">Richard Wagner, with whom he met personally several times, was extremely important to Bruckner, as he felt a fervent respect for him.</sys:String>
+    <sys:String x:Key="Text3">Bruckner’s symphonic creation was influenced by the works of Ludwig van Beethoven and Franz Schubert, whose music he had extensively known since his childhood as a choirboy.Richard Wagner, with whom he met personally several times, was extremely important to Bruckner, as he felt a fervent respect for him.</sys:String>
 
     <sys:String x:Key="Text4">“Most Eminent Master! Moved to the core by the majesty of your magnificent and immortal creations, I dare today, on this eternally celebrated great festival, to lay my deepest homage at the feet of the creator of all these wonderful ideals. Praise be to God for having given us this great master today and for having inspired him to compose what makes us infinitely happy!” [Bruckner to Richard Wagner on his birthday, May 20, 1878.]</sys:String>
 
