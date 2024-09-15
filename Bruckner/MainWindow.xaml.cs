@@ -22,24 +22,24 @@ namespace Bruckner
     {
         List<string> tagsList = new List<string>
             {
-                "Alumno",
-                "Biografia1",
-                "Compositor",
-                "Coro",
-                "Crisis",
-                "Familia",
-                "forschung",
-                "Galeria",
-                "Imagen",
-                "Literatura",
-                "Muerte",
-                "Obras",
-                "Organista",
-                "Profesor",
-                "Trabajo",
-                "Viajes",
-                "Viena"
-            };
+               "Biografia1",
+"Familia",
+"Coro",
+"Alumno",
+ "Profesor",
+"Organista",
+"Crisis",
+"Viajes",
+ "Viena",
+"Muerte",
+"Compositor",
+"Trabajo",
+"Imagen",
+"forschung",
+"Obras",
+ "Literatura",
+"Galeria",
+};
         public Musica GetMusica;
         private MediaPlayer mediaPlayer;
         private string[] audioFiles;
