@@ -4,17 +4,22 @@
              xmlns:local="clr-namespace:Bruckner"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        
+
         <Style TargetType="ListBoxItem">
             <Setter Property="FontFamily" Value="Arial" />
             <Setter Property="FontSize" Value="20" />
-            <Setter Property="Margin" Value="20"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
             <Setter Property="Foreground" Value="#FFCA00" />
+        </Style>
+        <Style TargetType="Expander">
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Margin" Value="10" />
         </Style>
         <Style TargetType="TreeViewItem">
             <Setter Property="FontFamily" Value="Arial" />
             <Setter Property="FontSize" Value="20" />
-            <Setter Property="Margin" Value="20"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
             <Setter Property="Foreground" Value="#FFCA00" />
         </Style>
         <Style TargetType="TextBlock">

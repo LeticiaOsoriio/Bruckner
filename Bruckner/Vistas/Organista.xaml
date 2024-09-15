@@ -23,10 +23,9 @@
 
         <!-- Dynamic text in StackPanel -->
         <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">
-            <TextBlock FontStyle="Italic" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+            <TextBlock FontStyle="Italic" FontSize="18" HorizontalAlignment="Stretch" Foreground="White" TextWrapping="Wrap">
               <Run Text="{DynamicResource Text1}" />
-              <LineBreak/>
-              <Run Text="{DynamicResource Text2}" />
+
             </TextBlock>
         </StackPanel>
 
@@ -38,6 +37,10 @@
             </Grid.ColumnDefinitions>
             <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
                 <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+                    
+                                <LineBreak/>  
+              <Run Text="{DynamicResource Text2}" />
+                    <LineBreak/>
                   <Run Text="{DynamicResource Text3}" />
                   <LineBreak/>
                   <LineBreak/>

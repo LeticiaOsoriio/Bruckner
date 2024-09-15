@@ -28,7 +28,7 @@ namespace Bruckner.Vistas
         private const double EnlargedWidth = 400;
         private const double EnlargedHeight = 500;
 
-        private const double OriginalMargin = 50;
+        private const double OriginalMargin = 5;
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {

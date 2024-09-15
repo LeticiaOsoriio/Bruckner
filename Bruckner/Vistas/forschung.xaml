@@ -26,7 +26,7 @@
         <Grid Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"></ColumnDefinition>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
+
             </Grid.ColumnDefinitions>
             <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
                 <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
@@ -42,21 +42,6 @@
                <LineBreak/><LineBreak/>
                <Run Text="{DynamicResource Text5}" />
                <LineBreak/><LineBreak/>
-               <Run Text="{DynamicResource Text6}" />
-               <LineBreak/><LineBreak/>
-               <Run Text="{DynamicResource Text7}" />
-               <LineBreak/><LineBreak/>
-               <Run Text="{DynamicResource Text8}" />
-               <LineBreak/><LineBreak/>
-               <Run Text="{DynamicResource Text9}" />
-               <LineBreak/><LineBreak/>
-               <Run Text="{DynamicResource Text10}" />
-               <LineBreak/><LineBreak/>
-               <Run Text="{DynamicResource Text11}" />
-               <LineBreak/><LineBreak/>
-               <Run Text="{DynamicResource Text12}" />
-               <LineBreak/><LineBreak/>
-               <Run Text="{DynamicResource Text13}" />
 
                 </TextBlock>
             </ScrollViewer>

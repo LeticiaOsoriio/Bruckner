@@ -7,32 +7,33 @@
       mc:Ignorable="d" 
       Title="Galeria">
 
-    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
 
-        <!-- Imagenes en la cuadrícula -->
+            <!-- Imagenes en la cuadrícula -->
+            <Image Source="/Recursos/Img/abb1_2.jpg" Grid.Row="0" Grid.Column="0" Width="200" Height="250"  Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb2_2.jpg" Grid.Row="0" Grid.Column="1" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb3_2.jpg" Grid.Row="0" Grid.Column="2" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb4_2.jpg" Grid.Row="1" Grid.Column="0" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb5_2.jpg" Grid.Row="1" Grid.Column="1" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb6_2.jpg" Grid.Row="1" Grid.Column="2" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb7_2.jpg" Grid.Row="2" Grid.Column="0" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb8_2.jpg" Grid.Row="2" Grid.Column="1" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb9_2.jpg" Grid.Row="2" Grid.Column="2" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb10_2.jpg" Grid.Row="0" Grid.Column="3" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+            <Image Source="/Recursos/Img/abb11_2.jpg" Grid.Row="1" Grid.Column="3" Width="200" Height="250" Margin="5" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        </Grid>
+    </ScrollViewer>
 
-        <Image Source="/Recursos/Img/abb1_2.jpg" Grid.Row="0" Grid.Column="0" Width="200" Height="250"  Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb2_2.jpg" Grid.Row="0" Grid.Column="1" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb3_2.jpg" Grid.Row="0" Grid.Column="2" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb4_2.jpg" Grid.Row="1" Grid.Column="0" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb5_2.jpg" Grid.Row="1" Grid.Column="1" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb6_2.jpg" Grid.Row="1" Grid.Column="2" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb7_2.jpg" Grid.Row="2" Grid.Column="0" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>   
-        <Image Source="/Recursos/Img/abb8_2.jpg" Grid.Row="2" Grid.Column="1" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb9_2.jpg" Grid.Row="2" Grid.Column="2" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb10_2.jpg" Grid.Row="0" Grid.Column="3" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-        <Image Source="/Recursos/Img/abb11_2.jpg" Grid.Row="1" Grid.Column="3" Width="200" Height="250" Margin="50" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
-
-    </Grid>
 </Page>
